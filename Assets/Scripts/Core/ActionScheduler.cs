@@ -16,6 +16,11 @@ namespace RPG.Core
             }
             currentAction = action;
         }
+
+        public void CancelcurrentAction()
+        {
+            StartAction(null);
+        }
     }
 }
 
