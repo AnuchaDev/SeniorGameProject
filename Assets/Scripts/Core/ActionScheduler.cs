@@ -1,5 +1,4 @@
-﻿using UnityEngine;
-using System.Collections;
+using UnityEngine;
 
 namespace RPG.Core
 {
@@ -17,11 +16,9 @@ namespace RPG.Core
             currentAction = action;
         }
 
-        public void CancelcurrentAction()
+        public void CancelCurrentAction()
         {
             StartAction(null);
         }
     }
 }
-
-

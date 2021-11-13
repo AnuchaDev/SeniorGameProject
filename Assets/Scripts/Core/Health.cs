@@ -1,5 +1,4 @@
-﻿using UnityEngine;
-using System.Collections;
+using UnityEngine;
 
 namespace RPG.Core
 {
@@ -16,7 +15,7 @@ namespace RPG.Core
 
         public void TakeDamage(float damage)
         {
-            healthPoints = Mathf.Max(healthPoints - damage,0);
+            healthPoints = Mathf.Max(healthPoints - damage, 0);
             if(healthPoints == 0)
             {
                 Die();
@@ -29,9 +28,7 @@ namespace RPG.Core
 
             isDead = true;
             GetComponent<Animator>().SetTrigger("die");
-            GetComponent<ActionScheduler>().CancelcurrentAction();
+            GetComponent<ActionScheduler>().CancelCurrentAction();
         }
     }
-
 }
-

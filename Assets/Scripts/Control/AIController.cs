@@ -1,4 +1,4 @@
-using System;
+﻿using System;
 using System.Collections;
 using System.Collections.Generic;
 using RPG.Combat;
@@ -8,7 +8,6 @@ using UnityEngine;
 
 namespace RPG.Control
 {
-
     public class AIController : MonoBehaviour
     {
         [SerializeField] float chaseDistance = 5f;
@@ -22,24 +21,24 @@ namespace RPG.Control
         Mover mover;
         GameObject player;
 
-
         Vector3 guardPosition;
         float timeSinceLastSawPlayer = Mathf.Infinity;
         float timeSinceArrivedAtWaypoint = Mathf.Infinity;
         int currentWaypointIndex = 0;
 
-        private void Start()
-        {
+        private void Start() {
             fighter = GetComponent<Fighter>();
             health = GetComponent<Health>();
-            player = GameObject.FindWithTag("Player");
             mover = GetComponent<Mover>();
+            player = GameObject.FindWithTag("Player");
+
             guardPosition = transform.position;
         }
 
         private void Update()
         {
             if (health.IsDead()) return;
+
             if (InAttackRangeOfPlayer() && fighter.CanAttack(player))
             {
                 AttackBehaviour();
@@ -65,7 +64,8 @@ namespace RPG.Control
         private void PatrolBehaviour()
         {
             Vector3 nextPosition = guardPosition;
-            if(patrolPath != null)
+
+            if (patrolPath != null)
             {
                 if (AtWaypoint())
                 {
@@ -74,7 +74,8 @@ namespace RPG.Control
                 }
                 nextPosition = GetCurrentWaypoint();
             }
-            if(timeSinceArrivedAtWaypoint > waypointDwellTime)
+
+            if (timeSinceArrivedAtWaypoint > waypointDwellTime)
             {
                 mover.StartMoveAction(nextPosition);
             }
@@ -98,7 +99,7 @@ namespace RPG.Control
 
         private void SuspicionBehaviour()
         {
-            GetComponent<ActionScheduler>().CancelcurrentAction();
+            GetComponent<ActionScheduler>().CancelCurrentAction();
         }
 
         private void AttackBehaviour()
@@ -114,12 +115,9 @@ namespace RPG.Control
         }
 
         // Called by Unity
-        private void OnDrawGizmosSelected()
-        {
+        private void OnDrawGizmosSelected() {
             Gizmos.color = Color.blue;
-            Gizmos.DrawWireSphere(transform.position,chaseDistance);
+            Gizmos.DrawWireSphere(transform.position, chaseDistance);
         }
-
     }
 }
-

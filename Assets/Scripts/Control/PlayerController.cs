@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using RPG.Combat;
 using RPG.Core;
 using RPG.Movement;
@@ -10,31 +10,32 @@ namespace RPG.Control
     {
         Health health;
 
-        private void Start()
-        {
-            health = GetComponent<Health>();    
+        private void Start() {
+            health = GetComponent<Health>();
         }
 
         private void Update()
         {
             if (health.IsDead()) return;
-            if(InteractWithCombat()) return;
-            InteractWithMovement();
+
+            if (InteractWithCombat()) return;
+            if (InteractWithMovement()) return;
         }
 
         private bool InteractWithCombat()
         {
             RaycastHit[] hits = Physics.RaycastAll(GetMouseRay());
-            foreach(RaycastHit hit in hits)
+            foreach (RaycastHit hit in hits)
             {
                 CombatTarget target = hit.transform.GetComponent<CombatTarget>();
                 if (target == null) continue;
+
                 if (!GetComponent<Fighter>().CanAttack(target.gameObject))
                 {
                     continue;
                 }
 
-                if (Input.GetMouseButtonDown(0))
+                if (Input.GetMouseButton(0))
                 {
                     GetComponent<Fighter>().Attack(target.gameObject);
                 }
@@ -49,7 +50,7 @@ namespace RPG.Control
             bool hasHit = Physics.Raycast(GetMouseRay(), out hit);
             if (hasHit)
             {
-                if(Input.GetMouseButton(0))
+                if (Input.GetMouseButton(0))
                 {
                     GetComponent<Mover>().StartMoveAction(hit.point);
                 }
@@ -63,5 +64,4 @@ namespace RPG.Control
             return Camera.main.ScreenPointToRay(Input.mousePosition);
         }
     }
-
 }
