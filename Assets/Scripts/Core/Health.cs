@@ -1,5 +1,5 @@
-using UnityEngine;
 using RPG.Saving;
+using UnityEngine;
 
 namespace RPG.Core
 {
@@ -39,9 +39,9 @@ namespace RPG.Core
 
         public void RestoreState(object state)
         {
-            healthPoints = (float)state;
-
-            if (healthPoints == 0)
+            healthPoints = (float) state;
+            
+            if (healthPoints <= 0)
             {
                 Die();
             }
