@@ -53,7 +53,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 559829495352909134, guid: 797eee54e11f44992be79a9f5b06c635, type: 3}
       propertyPath: m_Name
-      value: ArrowProjectile Variant Blue
+      value: ArrowProjectile Blue
       objectReference: {fileID: 0}
     - target: {fileID: 3873883899916710610, guid: 797eee54e11f44992be79a9f5b06c635, type: 3}
       propertyPath: m_Parameters.colorGradient.ctime1
@@ -65,15 +65,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3873883899916710610, guid: 797eee54e11f44992be79a9f5b06c635, type: 3}
       propertyPath: m_Parameters.colorGradient.key0.b
-      value: 0.9528302
+      value: 0.031372532
       objectReference: {fileID: 0}
     - target: {fileID: 3873883899916710610, guid: 797eee54e11f44992be79a9f5b06c635, type: 3}
       propertyPath: m_Parameters.colorGradient.key0.g
-      value: 0.88005614
+      value: 0.8276504
       objectReference: {fileID: 0}
     - target: {fileID: 3873883899916710610, guid: 797eee54e11f44992be79a9f5b06c635, type: 3}
       propertyPath: m_Parameters.colorGradient.key0.r
-      value: 0.03146139
+      value: 0.9529412
       objectReference: {fileID: 0}
     - target: {fileID: 3873883899916710610, guid: 797eee54e11f44992be79a9f5b06c635, type: 3}
       propertyPath: m_Parameters.colorGradient.key1.a
@@ -81,15 +81,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3873883899916710610, guid: 797eee54e11f44992be79a9f5b06c635, type: 3}
       propertyPath: m_Parameters.colorGradient.key1.b
-      value: 0.9536626
+      value: 0.047058795
       objectReference: {fileID: 0}
     - target: {fileID: 3873883899916710610, guid: 797eee54e11f44992be79a9f5b06c635, type: 3}
       propertyPath: m_Parameters.colorGradient.key1.g
-      value: 0.8821728
+      value: 0.91109836
       objectReference: {fileID: 0}
     - target: {fileID: 3873883899916710610, guid: 797eee54e11f44992be79a9f5b06c635, type: 3}
       propertyPath: m_Parameters.colorGradient.key1.r
-      value: 0.04855325
+      value: 0.9529412
       objectReference: {fileID: 0}
     - target: {fileID: 3873883899916710610, guid: 797eee54e11f44992be79a9f5b06c635, type: 3}
       propertyPath: m_Parameters.colorGradient.key2.b
@@ -106,6 +106,10 @@ PrefabInstance:
     - target: {fileID: 3873883899916710610, guid: 797eee54e11f44992be79a9f5b06c635, type: 3}
       propertyPath: m_Parameters.colorGradient.m_NumColorKeys
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6282963447148080153, guid: 797eee54e11f44992be79a9f5b06c635, type: 3}
+      propertyPath: m_IsTrigger
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 797eee54e11f44992be79a9f5b06c635, type: 3}
