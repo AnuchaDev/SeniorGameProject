@@ -18,6 +18,7 @@ GameObject:
   - component: {fileID: 3307795589981818629}
   - component: {fileID: 488557239800501724}
   - component: {fileID: 2677483589283652574}
+  - component: {fileID: 2368284834583163164}
   m_Layer: 0
   m_Name: Character
   m_TagString: Untagged
@@ -127,7 +128,7 @@ Animator:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5401972681186859721}
   m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: d288a0e4a2d923b46898986e979da643, type: 3}
+  m_Avatar: {fileID: 9000000, guid: 9ad76de1617627d45ba4fa8ddf255af4, type: 3}
   m_Controller: {fileID: 9100000, guid: 901730e1bb55f7c4d9daa34f4194c1d4, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
@@ -151,7 +152,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   timeBetweenAttacks: 1
-  handTransform: {fileID: 0}
+  rightHandTransform: {fileID: 0}
+  leftHandTransform: {fileID: 0}
   defaultWeapon: {fileID: 0}
 --- !u!114 &7346836368589747626
 MonoBehaviour:
@@ -207,3 +209,17 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &2368284834583163164
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5401972681186859721}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bc514b3ec8c14a89bdf474963fb98fb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingLevel: 1
+  characterClass: 1

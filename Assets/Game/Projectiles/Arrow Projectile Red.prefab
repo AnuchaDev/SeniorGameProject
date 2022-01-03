@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1001 &4050866693616433531
+--- !u!1001 &3780105507194897667
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -53,11 +53,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 559829495352909134, guid: 797eee54e11f44992be79a9f5b06c635, type: 3}
       propertyPath: m_Name
-      value: ArrowProjectile Blue
+      value: Arrow Projectile Red
       objectReference: {fileID: 0}
     - target: {fileID: 3873883899916710610, guid: 797eee54e11f44992be79a9f5b06c635, type: 3}
       propertyPath: m_Parameters.colorGradient.ctime1
-      value: 17733
+      value: 19082
       objectReference: {fileID: 0}
     - target: {fileID: 3873883899916710610, guid: 797eee54e11f44992be79a9f5b06c635, type: 3}
       propertyPath: m_Parameters.colorGradient.ctime2
@@ -65,11 +65,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3873883899916710610, guid: 797eee54e11f44992be79a9f5b06c635, type: 3}
       propertyPath: m_Parameters.colorGradient.key0.b
-      value: 0.031372532
+      value: 0.011764699
       objectReference: {fileID: 0}
     - target: {fileID: 3873883899916710610, guid: 797eee54e11f44992be79a9f5b06c635, type: 3}
       propertyPath: m_Parameters.colorGradient.key0.g
-      value: 0.8276504
+      value: 0.16236788
       objectReference: {fileID: 0}
     - target: {fileID: 3873883899916710610, guid: 797eee54e11f44992be79a9f5b06c635, type: 3}
       propertyPath: m_Parameters.colorGradient.key0.r
@@ -81,15 +81,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3873883899916710610, guid: 797eee54e11f44992be79a9f5b06c635, type: 3}
       propertyPath: m_Parameters.colorGradient.key1.b
-      value: 0.047058795
+      value: 0.026297571
       objectReference: {fileID: 0}
     - target: {fileID: 3873883899916710610, guid: 797eee54e11f44992be79a9f5b06c635, type: 3}
       propertyPath: m_Parameters.colorGradient.key1.g
-      value: 0.91109836
+      value: 0.174686
       objectReference: {fileID: 0}
     - target: {fileID: 3873883899916710610, guid: 797eee54e11f44992be79a9f5b06c635, type: 3}
       propertyPath: m_Parameters.colorGradient.key1.r
-      value: 0.9529412
+      value: 0.95363325
       objectReference: {fileID: 0}
     - target: {fileID: 3873883899916710610, guid: 797eee54e11f44992be79a9f5b06c635, type: 3}
       propertyPath: m_Parameters.colorGradient.key2.b
@@ -107,9 +107,13 @@ PrefabInstance:
       propertyPath: m_Parameters.colorGradient.m_NumColorKeys
       value: 3
       objectReference: {fileID: 0}
-    - target: {fileID: 6282963447148080153, guid: 797eee54e11f44992be79a9f5b06c635, type: 3}
-      propertyPath: m_IsTrigger
-      value: 1
+    - target: {fileID: 5729361505799575182, guid: 797eee54e11f44992be79a9f5b06c635, type: 3}
+      propertyPath: speed
+      value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 5729361505799575182, guid: 797eee54e11f44992be79a9f5b06c635, type: 3}
+      propertyPath: hitEffect
+      value: 
+      objectReference: {fileID: 8277191405605696591, guid: bb247c0ff061f43efa9c30f980bfdf8c, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 797eee54e11f44992be79a9f5b06c635, type: 3}

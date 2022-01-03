@@ -15,6 +15,10 @@ PrefabInstance:
       propertyPath: uniqueIdentifier
       value: player
       objectReference: {fileID: 0}
+    - target: {fileID: 2368284834583163164, guid: 750e3c6876a501e42b5827ec7a3d24d1, type: 3}
+      propertyPath: characterClass
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3125957438692005694, guid: 750e3c6876a501e42b5827ec7a3d24d1, type: 3}
       propertyPath: weapon
       value: 
