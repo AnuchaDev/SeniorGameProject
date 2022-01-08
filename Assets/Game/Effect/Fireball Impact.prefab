@@ -9,7 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1180248314969840, guid: 101d62f0a3e4fef4eab61adb79c845df, type: 3}
       propertyPath: m_Name
-      value: Generic impact Effect
+      value: Fireball Impact
       objectReference: {fileID: 0}
     - target: {fileID: 4790018586714926, guid: 101d62f0a3e4fef4eab61adb79c845df, type: 3}
       propertyPath: m_RootOrder
@@ -174,7 +174,7 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1180248314969840, guid: 101d62f0a3e4fef4eab61adb79c845df, type: 3}
   m_PrefabInstance: {fileID: 6404277677879589303}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &9080546637297854253
+--- !u!114 &1454335328753650272
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -183,6 +183,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 6405422622619109191}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 300cfa8b5471b496a831e6fd879b71c6, type: 3}
+  m_Script: {fileID: 11500000, guid: 4691e5c59a958ac4aa1d39dd53d4952f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  targetToDestroy: {fileID: 0}

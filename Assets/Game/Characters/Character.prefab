@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: 3307795589981818629}
   - component: {fileID: 488557239800501724}
   - component: {fileID: 2677483589283652574}
-  - component: {fileID: 2368284834583163164}
+  - component: {fileID: 6624314875915377727}
   m_Layer: 0
   m_Name: Character
   m_TagString: Untagged
@@ -179,7 +179,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f681b2338b2fccc428a8e51d8f2adc5f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  healthPoints: 100
+  regenerationPercentage: 70
 --- !u!114 &488557239800501724
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -209,7 +209,7 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
---- !u!114 &2368284834583163164
+--- !u!114 &6624314875915377727
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -218,8 +218,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 5401972681186859721}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5bc514b3ec8c14a89bdf474963fb98fb, type: 3}
+  m_Script: {fileID: 11500000, guid: eacf20591b9dd6044bbcd90ca8f098db, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   startingLevel: 1
   characterClass: 1
+  progression: {fileID: 11400000, guid: dde64a6dc183d1a4e902664730711f89, type: 2}
+  levelUpParticleEffect: {fileID: 0}
+  shouldUseModifiers: 0
