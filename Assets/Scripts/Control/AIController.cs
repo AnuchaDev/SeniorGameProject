@@ -6,7 +6,7 @@ using RPG.Core;
 using RPG.Movement;
 using UnityEngine;
 using RPG.Resources;
-using GameDevTV.Utils;
+using GameDev.Utils;
 
 namespace RPG.Control
 {

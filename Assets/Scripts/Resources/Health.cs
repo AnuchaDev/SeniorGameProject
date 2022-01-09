@@ -1,5 +1,5 @@
 using System;
-using GameDevTV.Utils;
+using GameDev.Utils;
 using RPG.Core;
 using RPG.Saving;
 using RPG.Stats;
