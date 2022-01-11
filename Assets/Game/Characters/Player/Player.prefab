@@ -11,6 +11,10 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 456998495081794104, guid: 750e3c6876a501e42b5827ec7a3d24d1, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 488557239800501724, guid: 750e3c6876a501e42b5827ec7a3d24d1, type: 3}
       propertyPath: uniqueIdentifier
       value: player
@@ -172,16 +176,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   cursorMappings:
   - type: 0
-    texture: {fileID: 2800000, guid: 2b0024338e4b78841a452f45bcc7f8e1, type: 3}
+    texture: {fileID: 2800000, guid: 3a9f9be36ef7c7e45845f89cf7ca632d, type: 3}
     hotspot: {x: 0, y: 0}
   - type: 1
-    texture: {fileID: 2800000, guid: 170d988107277824f8be67f84e2a4672, type: 3}
+    texture: {fileID: 2800000, guid: e78434d3c7d798e4b81e601206e47031, type: 3}
     hotspot: {x: 0, y: 0}
   - type: 2
-    texture: {fileID: 2800000, guid: d2331ce8f0b381b4592c8ee5b172e5c2, type: 3}
+    texture: {fileID: 2800000, guid: 1e5186b4581061247afee6155c8ed799, type: 3}
     hotspot: {x: 0, y: 0}
   - type: 3
-    texture: {fileID: 2800000, guid: 8b1652262fecfcb49b55a3eb90024d24, type: 3}
+    texture: {fileID: 2800000, guid: 19f45bc5bfe183540a6273e471406404, type: 3}
+    hotspot: {x: 0, y: 0}
+  - type: 4
+    texture: {fileID: 2800000, guid: 163bfe21641b3fd438f8c8d4cfbdb4cd, type: 3}
     hotspot: {x: 0, y: 0}
   maxNavmeshProjectionDistance: 1
   maxNavPathLength: 40
