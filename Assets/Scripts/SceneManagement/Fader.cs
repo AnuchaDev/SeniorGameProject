@@ -33,7 +33,7 @@ namespace RPG.SceneManagement
             {
                 StopCoroutine(currentActiveFade);
             }
-            currentActiveFade = StartCoroutine(FadeRoutine(target,time));
+            currentActiveFade = StartCoroutine(FadeRoutine(target, time));
             return currentActiveFade;
         }
 
