@@ -1,0 +1,704 @@
+Unity Editor version:    2021.2.2f1 (5e2b1e92c7f8)
+Branch:                  2021.2/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 12.1 (Build 21C52)
+Darwin version:          21.2.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.2.2f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/anucha/UnityGame/SeniorProject/SeniorGameProject
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+52623
+Successfully changed project path to: /Users/anucha/UnityGame/SeniorProject/SeniorGameProject
+/Users/anucha/UnityGame/SeniorProject/SeniorGameProject
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 107.98 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.2f1 (5e2b1e92c7f8)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.2.2f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/anucha/UnityGame/SeniorProject/SeniorGameProject/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: Intel(R) Iris(TM) Plus Graphics (low power)
+Metal devices available: 1
+0: Intel(R) Iris(TM) Plus Graphics (low power)
+Forcing user selected device: Intel(R) Iris(TM) Plus Graphics (low power)
+Initializing Metal device caps: Intel(R) Iris(TM) Plus Graphics
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.2.2f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.2.2f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.2.2f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56423
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.2.2f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.001395 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 121.00 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.780 seconds
+Domain Reload Profiling:
+	ReloadAssembly (780ms)
+		BeginReloadAssembly (68ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (611ms)
+			LoadAssemblies (67ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (134ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (34ms)
+			SetupLoadedEditorAssemblies (383ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (121ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (190ms)
+				ProcessInitializeOnLoadMethodAttributes (56ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001667 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.06 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.193 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1194ms)
+		BeginReloadAssembly (199ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (22ms)
+		EndReloadAssembly (885ms)
+			LoadAssemblies (62ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (221ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (404ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (50ms)
+				ProcessInitializeOnLoadAttributes (314ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.2.2f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.06 seconds
+Refreshing native plugins compatible for Editor in 1.09 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1753 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (117.3 KB). Loaded Objects now: 2244.
+Memory consumption went from 199.6 MB to 199.5 MB.
+Total: 3.730865 ms (FindLiveObjects: 0.141585 ms CreateObjectMapping: 0.062654 ms MarkObjects: 3.387395 ms  DeleteObjects: 0.137373 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 95311.318086 seconds.
+  path: Assets/Game/Characters/Enemies/Enemy.prefab
+  artifactKey: Guid(97794e8f32d9d574c8ed85db378e8c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Characters/Enemies/Enemy.prefab using Guid(97794e8f32d9d574c8ed85db378e8c47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d38fdbbf972c851a1314c2f20b94bac') in 1.040837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 27.077282 seconds.
+  path: Assets/Asset Packs/PolygonNature/Materials/Alternates
+  artifactKey: Guid(6f2fc711799d181489747d58cf445fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonNature/Materials/Alternates using Guid(6f2fc711799d181489747d58cf445fef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f8f33252ddc8fc3f9b6ac1dc51ad358') in 0.001203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 467.954935 seconds.
+  path: Assets/Asset Packs/PolygonParticleFX/Models/SM_GoreChunk_01.fbx
+  artifactKey: Guid(42d285dbfe3e3b64189e747d4e5ab2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonParticleFX/Models/SM_GoreChunk_01.fbx using Guid(42d285dbfe3e3b64189e747d4e5ab2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4438e202bb1a9a7dc42165792e56c50') in 0.155792 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.003723 seconds.
+  path: Assets/Asset Packs/PolygonParticleFX/Models/SM_Rock_01.fbx
+  artifactKey: Guid(047fc1cd24ff3e945872c4f22e03d106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonParticleFX/Models/SM_Rock_01.fbx using Guid(047fc1cd24ff3e945872c4f22e03d106) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e83b2a672d432c667e2e1b960c748b6') in 0.019340 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Asset Packs/PolygonParticleFX/Models/SM_LightRayRound 1.fbx
+  artifactKey: Guid(0110c4e8145949244a8c41db8957bcdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonParticleFX/Models/SM_LightRayRound 1.fbx using Guid(0110c4e8145949244a8c41db8957bcdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fee7583b966368bbbf89968f01db1f11') in 0.068267 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000434 seconds.
+  path: Assets/Asset Packs/PolygonParticleFX/Models/SM_LightRayCube 1.fbx
+  artifactKey: Guid(8297447ef77c7ab458f861bdd4a1885c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonParticleFX/Models/SM_LightRayCube 1.fbx using Guid(8297447ef77c7ab458f861bdd4a1885c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb3d0f8630bf800ea3c7f0570e1caa51') in 0.071257 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 64.467352 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/BR_Attachmnets
+  artifactKey: Guid(274e87270f3c3ee48938eaaa8bf71c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/BR_Attachmnets using Guid(274e87270f3c3ee48938eaaa8bf71c1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd03f7468582a5516a6b1382bebefa73f') in 0.001621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.102433 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/BR_Attachmnets/SM_Chr_Attach_Dwarf_Bandana_01.prefab
+  artifactKey: Guid(d329317082cee2a4d8c662b9b4df89b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/BR_Attachmnets/SM_Chr_Attach_Dwarf_Bandana_01.prefab using Guid(d329317082cee2a4d8c662b9b4df89b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ae27983058eb15d87428d1e44759f0c') in 0.052309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000179 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/BR_Attachmnets/SM_Chr_Attach_Dwarf_Beard_07.prefab
+  artifactKey: Guid(a1ec48ce2e1a9804aa0bae089bfce92c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/BR_Attachmnets/SM_Chr_Attach_Dwarf_Beard_07.prefab using Guid(a1ec48ce2e1a9804aa0bae089bfce92c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed1c0b5b04885dff08ddb4134203f369') in 0.066492 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002671 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/BR_Attachmnets/SM_Chr_Attach_Dwarf_Helmet_Fancy_01.prefab
+  artifactKey: Guid(276ba134c5bd9904a8b931ccb5651402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/BR_Attachmnets/SM_Chr_Attach_Dwarf_Helmet_Fancy_01.prefab using Guid(276ba134c5bd9904a8b931ccb5651402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a15a0673d054531dc7b53307feec1284') in 0.061244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/BR_Attachmnets/SM_Chr_Attach_Dwarf_Gasmask_01.prefab
+  artifactKey: Guid(5e807f7192780ea4d81d44c5c742fd62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/BR_Attachmnets/SM_Chr_Attach_Dwarf_Gasmask_01.prefab using Guid(5e807f7192780ea4d81d44c5c742fd62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dd0edba27cc3a3b32bcd5e08ebb0dd4') in 0.057613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000148 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/BR_Attachmnets/SM_Chr_Attach_Dwarf_Hair_Mohawk_01.prefab
+  artifactKey: Guid(cec0b3bb589247541925451c322edb0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/BR_Attachmnets/SM_Chr_Attach_Dwarf_Hair_Mohawk_01.prefab using Guid(cec0b3bb589247541925451c322edb0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14907b3b5bc2bfa65c5f3dc0b7db75fe') in 0.055103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000796 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/BR_Attachmnets/SM_Chr_Attach_Dwarf_Beard_Attach_02.prefab
+  artifactKey: Guid(5b0d4108733a5624da3cf4f08e6d384f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/BR_Attachmnets/SM_Chr_Attach_Dwarf_Beard_Attach_02.prefab using Guid(5b0d4108733a5624da3cf4f08e6d384f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2900d11b653bfb71e50add234f02942c') in 0.055080 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/BR_Attachmnets/SM_Chr_Attach_Dwarf_Beard_04.prefab
+  artifactKey: Guid(b28d3ad2ff1b9c84482d2d14faedac9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/BR_Attachmnets/SM_Chr_Attach_Dwarf_Beard_04.prefab using Guid(b28d3ad2ff1b9c84482d2d14faedac9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '742402eee6b009d633ba600e21857728') in 0.055447 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/BR_Attachmnets/SM_Chr_Attach_Dwarf_Hair_Long_01.prefab
+  artifactKey: Guid(08621c5c7c8d93d4b90875c002e84b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/BR_Attachmnets/SM_Chr_Attach_Dwarf_Hair_Long_01.prefab using Guid(08621c5c7c8d93d4b90875c002e84b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0ac9d31e7099f6d5ee045a9f8960d2e') in 0.066553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/BR_Attachmnets/SM_Chr_Attach_Dwarf_Hair_Ponytail_01.prefab
+  artifactKey: Guid(da38a27f0ab15c94ea1c2a14ed5bcf1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/BR_Attachmnets/SM_Chr_Attach_Dwarf_Hair_Ponytail_01.prefab using Guid(da38a27f0ab15c94ea1c2a14ed5bcf1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29f0ac7d2ad46df4d05c2ac63ba63d8e') in 0.074616 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000312 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/BR_Attachmnets/SM_Chr_Attach_Dwarf_Beard_Attach_01.prefab
+  artifactKey: Guid(c2c6981eb53fdc14da5e71907fcee8a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/BR_Attachmnets/SM_Chr_Attach_Dwarf_Beard_Attach_01.prefab using Guid(c2c6981eb53fdc14da5e71907fcee8a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a33de96d4b5574ae52fb55f2d17cd17') in 0.059230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/BR_Attachmnets/SM_Chr_Attach_Dwarf_Beard_02.prefab
+  artifactKey: Guid(8f288e6e820a0e6468780856104375c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/BR_Attachmnets/SM_Chr_Attach_Dwarf_Beard_02.prefab using Guid(8f288e6e820a0e6468780856104375c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc842d25cddc340fdf17503e58bdbee6') in 0.072190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/BR_Attachmnets/SM_Chr_Attach_Dwarf_Hair_Pigtails_01.prefab
+  artifactKey: Guid(047316b39ce4ebc499da9956bc493031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/BR_Attachmnets/SM_Chr_Attach_Dwarf_Hair_Pigtails_01.prefab using Guid(047316b39ce4ebc499da9956bc493031) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f348e721b94932628632553496e59f7') in 0.069008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.868290 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/BR_Attachmnets/SM_Chr_Attach_Dwarf_Helmet_Horns_01.prefab
+  artifactKey: Guid(37813cce6ce02044cbbb8d1ec7cac5b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/BR_Attachmnets/SM_Chr_Attach_Dwarf_Helmet_Horns_01.prefab using Guid(37813cce6ce02044cbbb8d1ec7cac5b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d965ff6f3771e8c9ba718ae33500f4d') in 0.054759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/BR_Attachmnets/SM_Chr_Attach_Dwarf_Helmet_Light_03.prefab
+  artifactKey: Guid(989be26e0f52441489bcaf353d0b81db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/BR_Attachmnets/SM_Chr_Attach_Dwarf_Helmet_Light_03.prefab using Guid(989be26e0f52441489bcaf353d0b81db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '152d6b799a80a3a5606272eca518ca70') in 0.088290 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000185 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/BR_Attachmnets/SM_Chr_Attach_Dwarf_Shoulder_King_R_01.prefab
+  artifactKey: Guid(cd8cc2649ab17484f8929505852218ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/BR_Attachmnets/SM_Chr_Attach_Dwarf_Shoulder_King_R_01.prefab using Guid(cd8cc2649ab17484f8929505852218ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c41a3a4a7634374af22e244a8d0d8c33') in 0.087452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000196 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/BR_Attachmnets/SM_Chr_Attach_Dwarf_Helmet_Leather_01.prefab
+  artifactKey: Guid(3a65d7aa1de8c1047859e578c051408d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/BR_Attachmnets/SM_Chr_Attach_Dwarf_Helmet_Leather_01.prefab using Guid(3a65d7aa1de8c1047859e578c051408d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71f96cc0cd44caab86c925c4fca73f2c') in 0.067835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000100 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/BR_Attachmnets/SM_Chr_Attach_Dwarf_Shoulder_Soldier_R_01.prefab
+  artifactKey: Guid(5e2bc4b98a239854e92a72d61499664a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/BR_Attachmnets/SM_Chr_Attach_Dwarf_Shoulder_Soldier_R_01.prefab using Guid(5e2bc4b98a239854e92a72d61499664a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3f348128a1547ba507bcf6e1833ed92') in 0.081840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001612 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/BR_Attachmnets/SM_Chr_Attach_Dwarf_Shoulder_King_L_01.prefab
+  artifactKey: Guid(f5e65daf942b9ad4382119b71a754cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/BR_Attachmnets/SM_Chr_Attach_Dwarf_Shoulder_King_L_01.prefab using Guid(f5e65daf942b9ad4382119b71a754cbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5d6915e003eefc828db9434cf3c36fd') in 0.053204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.387911 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/Attachments
+  artifactKey: Guid(a57997a363c71b340af9c094b6ab28ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/Attachments using Guid(a57997a363c71b340af9c094b6ab28ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ca82cc39a253b4203befee6dae76f4b') in 0.001353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.130062 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/Attachments/SM_Chr_Attach_Bone_Shoulder_01.prefab
+  artifactKey: Guid(52a8ce7e2d0c836438e017e8ff49364d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/Attachments/SM_Chr_Attach_Bone_Shoulder_01.prefab using Guid(52a8ce7e2d0c836438e017e8ff49364d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cf43d1f0a510e8e07c2230082aae8bd') in 0.053981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/Attachments/SM_Chr_Attach_Neckwrap_02.prefab
+  artifactKey: Guid(4e42a2f56f83ecf48a56408d0f500e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/Attachments/SM_Chr_Attach_Neckwrap_02.prefab using Guid(4e42a2f56f83ecf48a56408d0f500e49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6b970796c7d6b7c39d9acfcde702a66') in 0.084115 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000143 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/Attachments/SM_Chr_Attach_Hair_Hero_Male_01.prefab
+  artifactKey: Guid(e44f19a068f119f4494407ea236dfc72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/Attachments/SM_Chr_Attach_Hair_Hero_Male_01.prefab using Guid(e44f19a068f119f4494407ea236dfc72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42ac3df13c3cddf6f9a7cf3c0925f513') in 0.079153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000136 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/Attachments/SM_Chr_Attach_Feather_01.prefab
+  artifactKey: Guid(25e72725c67702040bbca447e13ac13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/Attachments/SM_Chr_Attach_Feather_01.prefab using Guid(25e72725c67702040bbca447e13ac13d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f7de09c108c324888f0313bde424138') in 0.089056 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000209 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/Attachments/SM_Chr_Attach_Hat_Round_01.prefab
+  artifactKey: Guid(4765b9fea17f5cb4d95f324cb2f125ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/Attachments/SM_Chr_Attach_Hat_Round_01.prefab using Guid(4765b9fea17f5cb4d95f324cb2f125ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ed3de96fd665c27a48d2a77c911f869') in 0.074079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/Attachments/SM_Chr_Attach_Mask_02.prefab
+  artifactKey: Guid(5b9c97934bc48344ca75771f5799ce01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/Attachments/SM_Chr_Attach_Mask_02.prefab using Guid(5b9c97934bc48344ca75771f5799ce01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1ae93e0757b6a4c9a20eba684081561') in 0.072560 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000220 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/Attachments/SM_Chr_Attach_Neckwrap_01.prefab
+  artifactKey: Guid(e6f6b823e02a2c344b4b2a3fb60e0abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/Attachments/SM_Chr_Attach_Neckwrap_01.prefab using Guid(e6f6b823e02a2c344b4b2a3fb60e0abd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db2a15052523c1a522d10c4e6d21dca5') in 0.064258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001359 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/Attachments/SM_Chr_Attach_Hero_Shoulder_01.prefab
+  artifactKey: Guid(9fc911068810394458235e70047af824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/Attachments/SM_Chr_Attach_Hero_Shoulder_01.prefab using Guid(9fc911068810394458235e70047af824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6a5eaf2a7dd9120a40e4a0f7522495b') in 0.070586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000419 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/Attachments/SM_Chr_Attach_Feather_Shoulder_01.prefab
+  artifactKey: Guid(b983207c0a90b1b49a785660933f03b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/Attachments/SM_Chr_Attach_Feather_Shoulder_01.prefab using Guid(b983207c0a90b1b49a785660933f03b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7bbb7fe168eb352556d7b24a34abf6d') in 0.067759 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000164 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/Attachments/SM_Chr_Attach_Hood_03.prefab
+  artifactKey: Guid(8c4be870e549f5f4cad7fc6222494c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/Attachments/SM_Chr_Attach_Hood_03.prefab using Guid(8c4be870e549f5f4cad7fc6222494c96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f4569344e9ed1c9cdd350c0c94158d9') in 0.074176 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000472 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/Attachments/SM_Chr_Attach_Hood_02.prefab
+  artifactKey: Guid(004f3a8213951434aaba2a7fbdc0aced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/Attachments/SM_Chr_Attach_Hood_02.prefab using Guid(004f3a8213951434aaba2a7fbdc0aced) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7af67bd12d7487ef29da9cb258075a43') in 0.056788 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/Attachments/SM_Chr_Attach_Hair_Wild_02.prefab
+  artifactKey: Guid(02863d00398253e408d9397880d875ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/Attachments/SM_Chr_Attach_Hair_Wild_02.prefab using Guid(02863d00398253e408d9397880d875ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75bf683bd5c61d9a659430c876bdf086') in 0.077931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.088972 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/Attachments/SM_Chr_Attach_Turban_01.prefab
+  artifactKey: Guid(54bef68aefd0e434999bb1b1aa385ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/Attachments/SM_Chr_Attach_Turban_01.prefab using Guid(54bef68aefd0e434999bb1b1aa385ec9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba28035ecb4fc2d1f270cbf97f0ed982') in 0.054975 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/Attachments/SM_Chr_Attach_Undead_Knight_Head_01.prefab
+  artifactKey: Guid(06fe7b3faa7ede94c855ad800960c92c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/Attachments/SM_Chr_Attach_Undead_Knight_Head_01.prefab using Guid(06fe7b3faa7ede94c855ad800960c92c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f41fc7d73f0fcce5617c2bd52de23db') in 0.074766 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000160 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/Attachments/SM_Chr_Attach_Undead_Knight_Helmet_01.prefab
+  artifactKey: Guid(4330ec3eeba18aa4d98159a232f4ac9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Characters/Attachments/SM_Chr_Attach_Undead_Knight_Helmet_01.prefab using Guid(4330ec3eeba18aa4d98159a232f4ac9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41b7a4cc111ea48f5a8e56261ad06d62') in 0.074373 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.426154 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes
+  artifactKey: Guid(defecd3e6eff65e40b6ff337f34e7b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes using Guid(defecd3e6eff65e40b6ff337f34e7b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb68d8ad42617829518cc297168c4351') in 0.001563 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.029436 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_09.prefab
+  artifactKey: Guid(28ed75789b65c4947a1aef94315a1f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_09.prefab using Guid(28ed75789b65c4947a1aef94315a1f0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4b25e3123c899f2b14f27e24217d6da') in 0.068597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_12.prefab
+  artifactKey: Guid(7e144a72489beb4489624932eda5de9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_12.prefab using Guid(7e144a72489beb4489624932eda5de9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '189125dd66cc1fcd41e8989315dd3e50') in 0.064498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001087 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_15.prefab
+  artifactKey: Guid(c7c4f318f9dab674e9c5d3d58402d676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_15.prefab using Guid(c7c4f318f9dab674e9c5d3d58402d676) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0576474d29cd3a1a23ecc2a0b6dd5175') in 0.055916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000172 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_11.prefab
+  artifactKey: Guid(68e49bd366f572e49a828f75085c3cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_11.prefab using Guid(68e49bd366f572e49a828f75085c3cf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '287a7fb507d8d1b273499a60c7a7f1fe') in 0.055640 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.938211 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_17.prefab
+  artifactKey: Guid(b0a929d0787772b44ac2f99e03b47829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_17.prefab using Guid(b0a929d0787772b44ac2f99e03b47829) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8590483d1435bbe94786ef53108a0ba') in 0.060556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000137 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_32.prefab
+  artifactKey: Guid(1f388602d2421c441b968ed6d24744d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_32.prefab using Guid(1f388602d2421c441b968ed6d24744d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d29dd415a7ceaa943e4808c8ed7669f') in 0.078541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000236 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_33.prefab
+  artifactKey: Guid(5dca9d6bc68ed4a4e8c6a64e95a7fe4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_33.prefab using Guid(5dca9d6bc68ed4a4e8c6a64e95a7fe4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'decb76074fbd12255480e03846124a26') in 0.078626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_31.prefab
+  artifactKey: Guid(505e904550aae3144bf5040b16b80179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_31.prefab using Guid(505e904550aae3144bf5040b16b80179) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf03fd4376892b529891c7fdeb33b40a') in 0.072437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_26.prefab
+  artifactKey: Guid(56f6ed9afefbada4a9754ed53249751a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_26.prefab using Guid(56f6ed9afefbada4a9754ed53249751a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '513632f5d86327bde2b91dff8ea67eb5') in 0.077824 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000106 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_20.prefab
+  artifactKey: Guid(317dddace538e244f91df4dfc6664d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_20.prefab using Guid(317dddace538e244f91df4dfc6664d1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f234f7e8a1a4f3928f1cba37a81ad0ee') in 0.084785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000166 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_19.prefab
+  artifactKey: Guid(69908a5346649544eb8987581d25f453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_19.prefab using Guid(69908a5346649544eb8987581d25f453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7835e0510e3faae59a7e46993b0fa864') in 0.059859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000146 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_34.prefab
+  artifactKey: Guid(c5816e5521d12314b92aafa152252984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_34.prefab using Guid(c5816e5521d12314b92aafa152252984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '788868758c78540cb5f703b2640d7903') in 0.059470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000159 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_30.prefab
+  artifactKey: Guid(2de146dfabcda4f45b8754fbf13fac3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_30.prefab using Guid(2de146dfabcda4f45b8754fbf13fac3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb629b983cc3a6811e1efa82736c6931') in 0.056745 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.145445 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_35.prefab
+  artifactKey: Guid(82ba84a56ff380a4995508a5d9a7d774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_35.prefab using Guid(82ba84a56ff380a4995508a5d9a7d774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01c3f153cc9cb9c494700ba86ec35867') in 0.051926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_37.prefab
+  artifactKey: Guid(3d069291c7c542a4189dc38327c8cce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_37.prefab using Guid(3d069291c7c542a4189dc38327c8cce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16e8c19e2c4af3b71668260555598439') in 0.062964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000247 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_51.prefab
+  artifactKey: Guid(b7f62a840c7a0624ca2b451ef85eb9e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_51.prefab using Guid(b7f62a840c7a0624ca2b451ef85eb9e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e1779e7e30e8c86ffa1d4abe8c2c867') in 0.055731 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000761 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_40.prefab
+  artifactKey: Guid(56d7a87bf6aa277428641cdf5ccb49e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_40.prefab using Guid(56d7a87bf6aa277428641cdf5ccb49e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63914e157d62c6c65363094da69b79ad') in 0.072135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000149 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_38.prefab
+  artifactKey: Guid(bf55a4ec23bf01e468330204fd3854b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_38.prefab using Guid(bf55a4ec23bf01e468330204fd3854b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c92db64ce22f0e4afc0914682c41fced') in 0.058253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_39.prefab
+  artifactKey: Guid(39ee7bbcd23a4c848ab6203efeb20865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_39.prefab using Guid(39ee7bbcd23a4c848ab6203efeb20865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdb6086c79211b19d47f2629fa62a965') in 0.055248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000239 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_44.prefab
+  artifactKey: Guid(5301029677145ff4083f2bedbb318045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_44.prefab using Guid(5301029677145ff4083f2bedbb318045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e09403890441041345ae5ed14bceff6') in 0.068853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000170 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_43.prefab
+  artifactKey: Guid(98eef83ee09f7e24aaf89b00afecad9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_43.prefab using Guid(98eef83ee09f7e24aaf89b00afecad9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3609ee77bc720c845e4b26133824d6f') in 0.059169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000140 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_46.prefab
+  artifactKey: Guid(17e5a138b046b8e4f9bc99797d33f358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_46.prefab using Guid(17e5a138b046b8e4f9bc99797d33f358) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69655744bf97c982bd0b66c504608b84') in 0.057348 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.493677 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_53.prefab
+  artifactKey: Guid(aec3ea763290edf4d87f575bcaa41e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_53.prefab using Guid(aec3ea763290edf4d87f575bcaa41e73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f6776d62057a9ac36ab0f695f8db956') in 0.057361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000187 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_56.prefab
+  artifactKey: Guid(1f36f5a6a4d428b44a3fee06b93058f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_56.prefab using Guid(1f36f5a6a4d428b44a3fee06b93058f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a17ff83c3d9a16608ee0b192f7a9c45') in 0.066526 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_64.prefab
+  artifactKey: Guid(b035fdf7058583c4ab1b4f332d8c82e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_64.prefab using Guid(b035fdf7058583c4ab1b4f332d8c82e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '743adbca731e00f966905e3e87979e88') in 0.079189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_75.prefab
+  artifactKey: Guid(c09d89ecf53017247914e5209ad0d470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_75.prefab using Guid(c09d89ecf53017247914e5209ad0d470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31d3f4608a84040c450d2612f719a27a') in 0.063857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000142 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_73.prefab
+  artifactKey: Guid(01b2dbed4be7b844ea768e630c419cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_73.prefab using Guid(01b2dbed4be7b844ea768e630c419cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b3c72fd8ff03e39ecd8c41aa5e9f54b') in 0.079686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_71.prefab
+  artifactKey: Guid(8dfeff463880f7841bb7082a4bac6d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_71.prefab using Guid(8dfeff463880f7841bb7082a4bac6d36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fd9a4a20235cc154fd1d45108f3ba13') in 0.075181 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000315 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_65.prefab
+  artifactKey: Guid(fc24e19ca9b69964784ac44785b2b845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_65.prefab using Guid(fc24e19ca9b69964784ac44785b2b845) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93ad5ffe65c1ebe99a9e31b77cbee67d') in 0.076674 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_62.prefab
+  artifactKey: Guid(45c5bde5be4a6374abdc617d38f537f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_62.prefab using Guid(45c5bde5be4a6374abdc617d38f537f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c83d153e5f0da95bec5e352787e69072') in 0.063823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_68.prefab
+  artifactKey: Guid(3d9aa168b969afa43a487299113becb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_68.prefab using Guid(3d9aa168b969afa43a487299113becb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7633a91dd0b18dcd87896319496ef1cc') in 0.061325 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_61.prefab
+  artifactKey: Guid(904723752d12e7546ba0f3120ecd5d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_61.prefab using Guid(904723752d12e7546ba0f3120ecd5d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72af1cbf5d2f0914513ff7fb3e09f746') in 0.052601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000167 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_69.prefab
+  artifactKey: Guid(b2976cdcdbce327479922ceb50a1aa87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_69.prefab using Guid(b2976cdcdbce327479922ceb50a1aa87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f5757d2d410cb4496006f256c600bf8') in 0.056249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000215 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_57.prefab
+  artifactKey: Guid(9fbade0d9d5a5de45acc7f74d1bb1290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_57.prefab using Guid(9fbade0d9d5a5de45acc7f74d1bb1290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6d01c4942aacc78432d63b30a52dce1') in 0.060225 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.286504 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_77.prefab
+  artifactKey: Guid(afa1dfb1898de69418370b2e6fabf564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Symbol_77.prefab using Guid(afa1dfb1898de69418370b2e6fabf564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c02a71bf37c878f51214654403df1be') in 0.053171 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000162 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Synty_03.prefab
+  artifactKey: Guid(4a2ef780cc4b5d447a9afeae330c8109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Synty_03.prefab using Guid(4a2ef780cc4b5d447a9afeae330c8109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '351cffd0223f9cffcaccba6c5e4cdd95') in 0.075309 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000181 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Synty_02.prefab
+  artifactKey: Guid(48ba7d8abb9ccd84298a3530044ebcef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Synty_02.prefab using Guid(48ba7d8abb9ccd84298a3530044ebcef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac0c63ce07da5cb2802316e240afcd01') in 0.061193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Synty_04.prefab
+  artifactKey: Guid(aeb1088d67b2d6b47994a3b1c02d4af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonDungeonRealms/Prefabs/Runes/SM_Rune_Synty_04.prefab using Guid(aeb1088d67b2d6b47994a3b1c02d4af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9dd9dba73bfc51986627cb0b2498e7c') in 0.054757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 674.838043 seconds.
+  path: Assets/Asset Packs/PolygonVikings/Models/ImportedModels/SM_Bld_BoatHouse_02.fbx
+  artifactKey: Guid(4201e9d7177f75f4f991f3d23303dcf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonVikings/Models/ImportedModels/SM_Bld_BoatHouse_02.fbx using Guid(4201e9d7177f75f4f991f3d23303dcf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf500e475141cf5d519c4417ead24402') in 0.023453 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Asset Packs/PolygonVikings/Models/ImportedModels/SM_Bld_Roof_02.fbx
+  artifactKey: Guid(1ad6fcbc53c6d4e418b90605268fcb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonVikings/Models/ImportedModels/SM_Bld_Roof_02.fbx using Guid(1ad6fcbc53c6d4e418b90605268fcb66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98631570e85a0ee9d06cfd7c70dc1ba7') in 0.017534 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Asset Packs/PolygonVikings/Models/ImportedModels/SM_Bld_Roof_Long_01.fbx
+  artifactKey: Guid(6e35b79db6a671b408f6b73faaebee96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonVikings/Models/ImportedModels/SM_Bld_Roof_Long_01.fbx using Guid(6e35b79db6a671b408f6b73faaebee96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff49e155c313723cbbb276e681025db4') in 0.051139 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/Asset Packs/PolygonVikings/Models/ImportedModels/SM_Bld_Roof_Window_01.fbx
+  artifactKey: Guid(28095b47b4e6a1f449a6f755f3aa5e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonVikings/Models/ImportedModels/SM_Bld_Roof_Window_01.fbx using Guid(28095b47b4e6a1f449a6f755f3aa5e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f5e7d6c9b6ce773756711d4231bd55b') in 0.018226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Asset Packs/PolygonVikings/Models/ImportedModels/SM_Bld_Wharf_01.fbx
+  artifactKey: Guid(ae0e325d6aaf84149a997a82dd150bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonVikings/Models/ImportedModels/SM_Bld_Wharf_01.fbx using Guid(ae0e325d6aaf84149a997a82dd150bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c31f9df317fba828c81adfb2c86509d7') in 0.050793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000297 seconds.
+  path: Assets/Asset Packs/PolygonVikings/Models/ImportedModels/SM_Bld_Window_01.fbx
+  artifactKey: Guid(f5b92af09b9139d4b836bc5b0c7a9a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonVikings/Models/ImportedModels/SM_Bld_Window_01.fbx using Guid(f5b92af09b9139d4b836bc5b0c7a9a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '519984423720e754c36c904e4887bfee') in 0.016380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.047786 seconds.
+  path: Assets/Asset Packs/PolygonVikings/Prefabs/Characters/Character_Grunt_02_Brown.prefab
+  artifactKey: Guid(77583b79f48966b44bc141a814e51207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonVikings/Prefabs/Characters/Character_Grunt_02_Brown.prefab using Guid(77583b79f48966b44bc141a814e51207) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b8cb13e868ab542bca7dfebeb533f71') in 0.037362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000125 seconds.
+  path: Assets/Asset Packs/PolygonVikings/Prefabs/Characters/Character_Warrior_02_White.prefab
+  artifactKey: Guid(4794571d75bb57947a3f110fddd024e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonVikings/Prefabs/Characters/Character_Warrior_02_White.prefab using Guid(4794571d75bb57947a3f110fddd024e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ef20025ccefe600e073529d162a2dd2') in 0.026457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000200 seconds.
+  path: Assets/Asset Packs/PolygonVikings/Prefabs/Characters/Character_Warrior_01_Black.prefab
+  artifactKey: Guid(7ddd5b27ab7654c40949fb96e05807cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonVikings/Prefabs/Characters/Character_Warrior_01_Black.prefab using Guid(7ddd5b27ab7654c40949fb96e05807cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c43dc040026c996f71db623e701bc7f') in 0.051037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000168 seconds.
+  path: Assets/Asset Packs/PolygonVikings/Prefabs/Characters/Character_Warrior_01_White.prefab
+  artifactKey: Guid(4d2dad51c4104a64c92ad2c036c8f6cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Asset Packs/PolygonVikings/Prefabs/Characters/Character_Warrior_01_White.prefab using Guid(4d2dad51c4104a64c92ad2c036c8f6cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ad18d1281d854c5b8eca24d8e36e6c8') in 0.072094 seconds 
