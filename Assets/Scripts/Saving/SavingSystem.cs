@@ -7,10 +7,12 @@ using System.Text;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-namespace RPG.Saving
+namespace GameDev.saving
 {
+
     public class SavingSystem : MonoBehaviour
     {
+
         public IEnumerator LoadLastScene(string saveFile)
         {
             Dictionary<string, object> state = LoadFile(saveFile);
@@ -30,14 +32,16 @@ namespace RPG.Saving
             SaveFile(saveFile, state);
         }
 
-        public void Load(string saveFile)
-        {
-            RestoreState(LoadFile(saveFile));
-        }
-
         public void Delete(string saveFile)
         {
             File.Delete(GetPathFromSaveFile(saveFile));
+        }
+
+        // PRIVATE
+
+        public void Load(string saveFile)
+        {
+            RestoreState(LoadFile(saveFile));
         }
 
         private Dictionary<string, object> LoadFile(string saveFile)

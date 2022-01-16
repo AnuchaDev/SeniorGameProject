@@ -1,7 +1,8 @@
 using UnityEngine;
 
-namespace RPG.Saving
+namespace GameDev.saving
 {
+
     [System.Serializable]
     public class SerializableVector3
     {
@@ -13,7 +14,6 @@ namespace RPG.Saving
             y = vector.y;
             z = vector.z;
         }
-
         public Vector3 ToVector()
         {
             return new Vector3(x, y, z);

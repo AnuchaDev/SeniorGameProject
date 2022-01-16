@@ -1,16 +1,20 @@
 using System;
 using System.Collections.Generic;
-using RPG.Core;
 using UnityEditor;
 using UnityEngine;
-using UnityEngine.AI;
 
-namespace RPG.Saving
+namespace GameDev.saving
 {
     [ExecuteAlways]
     public class SaveableEntity : MonoBehaviour
     {
+        // CONFIG DATA
+        [Tooltip("The unique ID is automatically generated in a scene file if " +
+        "left empty. Do not set in a prefab unless you want all instances to " + 
+        "be linked.")]
         [SerializeField] string uniqueIdentifier = "";
+
+        // CACHED STATE
         static Dictionary<string, SaveableEntity> globalLookup = new Dictionary<string, SaveableEntity>();
 
         public string GetUniqueIdentifier()
@@ -27,7 +31,6 @@ namespace RPG.Saving
             }
             return state;
         }
-
         public void RestoreState(object state)
         {
             Dictionary<string, object> stateDict = (Dictionary<string, object>)state;
@@ -40,6 +43,8 @@ namespace RPG.Saving
                 }
             }
         }
+
+        // PRIVATE
 
 #if UNITY_EDITOR
         private void Update() {

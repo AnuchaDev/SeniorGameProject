@@ -1,5 +1,6 @@
-namespace RPG.Saving
+namespace GameDev.saving
 {
+
     public interface ISaveable
     {
         object CaptureState();
