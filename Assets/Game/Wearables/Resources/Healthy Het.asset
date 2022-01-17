@@ -10,7 +10,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f0f5845de57164c4ab8a088ea3dbc811, type: 3}
-  m_Name: New Stats Equipable Item
+  m_Name: Healthy Het
   m_EditorClassIdentifier: 
   itemID: 3dc69506-722d-450c-9d09-9fe12055bf92
   displayName: Healthy Hat
