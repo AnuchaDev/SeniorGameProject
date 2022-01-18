@@ -16,7 +16,7 @@ MonoBehaviour:
   displayName: Damage Hat
   description: "\u0E40\u0E1E\u0E34\u0E48\u0E21\u0E1E\u0E25\u0E31\u0E07\u0E42\u0E08\u0E21\u0E15\u0E35
     +20"
-  icon: {fileID: 21300000, guid: b34f23df76a906344bc7c478141dc3d7, type: 3}
+  icon: {fileID: 21300000, guid: 1aaac2d41990fab47968bdbcd98494e4, type: 3}
   pickup: {fileID: 4055827363373812260, guid: eb7b33b00a5a549e5b6b34eb78ebc0ff, type: 3}
   stackable: 0
   allowedEquipLocation: 0
