@@ -173,7 +173,7 @@ namespace RPG.Dialogue.Editor
 
             GUILayout.BeginHorizontal();
 
-            if (GUILayout.Button("-"))
+            if (GUILayout.Button("x"))
             {
                 deletingNode = node;
             }

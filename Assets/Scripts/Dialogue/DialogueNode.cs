@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEditor;
@@ -54,13 +55,6 @@ namespace RPG.Dialogue
             }
         }
 
-        public void SetPlayerIsSpeaking(bool newIsPlayerSpeaking)
-        {
-            Undo.RecordObject(this, "Changed Dialogue Node Speaker");
-            isPlayerSpeaking = newIsPlayerSpeaking;
-            EditorUtility.SetDirty(this);
-        }
-
         public void AddChild(string childID)
         {
             Undo.RecordObject(this, "Add Dialogue Link");
@@ -74,6 +68,14 @@ namespace RPG.Dialogue
             children.Remove(childID);
             EditorUtility.SetDirty(this);
         }
+
+        public void SetPlayerSpeaking(bool newIsPlayerSpeaking)
+        {
+            Undo.RecordObject(this, "Change Dialogue Speaker");
+            isPlayerSpeaking = newIsPlayerSpeaking;
+            EditorUtility.SetDirty(this);
+        }
+
 #endif
     }
 }
