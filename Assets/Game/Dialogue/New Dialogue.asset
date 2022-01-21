@@ -23,6 +23,8 @@ MonoBehaviour:
     y: 59
     width: 200
     height: 100
+  onEnterAction: RootEntry
+  onExitAction: 
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40,6 +42,11 @@ MonoBehaviour:
   - {fileID: 973998868452523388}
   - {fileID: 1727420352224290612}
   - {fileID: 2135895099345441904}
+  - {fileID: 9145708078076402855}
+  - {fileID: 8744242383845838495}
+  - {fileID: 4825516396193558548}
+  - {fileID: 3055236629448949716}
+  newNodeOffset: {x: 250, y: 0}
 --- !u!114 &973998868452523388
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -59,9 +66,11 @@ MonoBehaviour:
   rect:
     serializedVersion: 2
     x: 307
-    y: 132
+    y: 133
     width: 200
     height: 100
+  onEnterAction: 
+  onExitAction: 
 --- !u!114 &1727420352224290612
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -84,6 +93,8 @@ MonoBehaviour:
     y: 38
     width: 200
     height: 100
+  onEnterAction: TestSelection
+  onExitAction: 
 --- !u!114 &2135895099345441904
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -98,10 +109,109 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isPlayerSpeaking: 0
   text: "\u0E2B\u0E34\u0E27\u0E02\u0E49\u0E32\u0E27"
-  children: []
+  children:
+  - 15c3b274-7620-4ac0-8258-56c6785a97eb
+  - 11b77593-e488-4fad-9b14-021bb052c089
   rect:
     serializedVersion: 2
     x: 557
     y: 132
     width: 200
     height: 100
+  onEnterAction: 
+  onExitAction: TestAIExit
+--- !u!114 &3055236629448949716
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb617ab88ccf14af28f17d2989c8b2f2, type: 3}
+  m_Name: c9e36f67-160f-4429-8b2a-9ce82bcc29ba
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "\u0E44\u0E21\u0E48\u0E21\u0E35\u0E40\u0E07\u0E34\u0E19 \u0E2B\u0E34\u0E27\u0E02\u0E49\u0E32\u0E27"
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1057
+    y: 132
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: Attack
+--- !u!114 &4825516396193558548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb617ab88ccf14af28f17d2989c8b2f2, type: 3}
+  m_Name: 17eec4c0-7b64-4c6a-bd8d-79f74d642e22
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "\u0E40\u0E2D\u0E32\u0E2A\u0E34 \u0E2B\u0E34\u0E27\u0E02\u0E49\u0E32\u0E27"
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1055
+    y: 37
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: Attack
+--- !u!114 &8744242383845838495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb617ab88ccf14af28f17d2989c8b2f2, type: 3}
+  m_Name: 11b77593-e488-4fad-9b14-021bb052c089
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: "\u0E09\u0E31\u0E19\u0E21\u0E35\u0E02\u0E2D\u0E07\u0E01\u0E34\u0E19\u0E2D\u0E22\u0E39\u0E48
+    \u0E40\u0E2D\u0E32\u0E21\u0E31\u0E4A\u0E22?"
+  children:
+  - 17eec4c0-7b64-4c6a-bd8d-79f74d642e22
+  rect:
+    serializedVersion: 2
+    x: 805
+    y: 37
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &9145708078076402855
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb617ab88ccf14af28f17d2989c8b2f2, type: 3}
+  m_Name: 15c3b274-7620-4ac0-8258-56c6785a97eb
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: "\u0E44\u0E1B\u0E0B\u0E37\u0E49\u0E2D\u0E2A\u0E34"
+  children:
+  - c9e36f67-160f-4429-8b2a-9ce82bcc29ba
+  rect:
+    serializedVersion: 2
+    x: 802
+    y: 135
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
