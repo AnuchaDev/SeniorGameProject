@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -20,8 +21,13 @@ namespace GameDev.UI
         {
             if (Input.GetKeyDown(toggleKey))
             {
-                uiContainer.SetActive(!uiContainer.activeSelf);
+                toggle();
             }
+        }
+
+        public void toggle()
+        {
+            uiContainer.SetActive(!uiContainer.activeSelf);
         }
     }
 }

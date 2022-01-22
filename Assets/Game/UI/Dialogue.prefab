@@ -962,7 +962,9 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Irate Guard
+  m_text: 'Speaker
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1146,9 +1148,27 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6530900228951496475, guid: 4727caf98f883a44c996a3b4fb727941, type: 3}
+      propertyPath: m_text
+      value: 'Choice
+
+'
+      objectReference: {fileID: 0}
     - target: {fileID: 6762138581329181467, guid: 4727caf98f883a44c996a3b4fb727941, type: 3}
       propertyPath: m_Name
       value: Choice Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871493227507664699, guid: 4727caf98f883a44c996a3b4fb727941, type: 3}
+      propertyPath: m_Color.b
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871493227507664699, guid: 4727caf98f883a44c996a3b4fb727941, type: 3}
+      propertyPath: m_Color.g
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8871493227507664699, guid: 4727caf98f883a44c996a3b4fb727941, type: 3}
+      propertyPath: m_Color.r
+      value: 0.6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4727caf98f883a44c996a3b4fb727941, type: 3}
