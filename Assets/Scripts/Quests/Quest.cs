@@ -7,7 +7,7 @@ namespace RPG.Quests
     [CreateAssetMenu(fileName ="Quest",menuName = "RPG Project/Quest",order = 0)]
     public class Quest : ScriptableObject
     {
-        [SerializeField] string[] objective;
+        [SerializeField] string[] objectives;
 
         public string GetTitle()
         {
@@ -16,7 +16,12 @@ namespace RPG.Quests
 
         public int GetObjectiveCount()
         {
-            return objective.Length;
+            return objectives.Length;
+        }
+
+        public IEnumerable<string> GetObjectives()
+        {
+            return objectives;
         }
     }
 

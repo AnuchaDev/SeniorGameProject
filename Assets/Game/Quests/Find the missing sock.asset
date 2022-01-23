@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c8686f1889244cd0968978a8aaf22f0, type: 3}
   m_Name: Find the missing sock
   m_EditorClassIdentifier: 
-  objective:
-  - 
-  - 
+  objectives:
+  - a
+  - b
+  - c

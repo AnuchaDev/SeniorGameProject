@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using GameDev.Core.UI.Tooltips;
+using RPG.Quests;
 using UnityEngine;
 
 namespace RPG.UI.Quests
@@ -14,6 +15,8 @@ namespace RPG.UI.Quests
 
         public override void UpdateTooltip(GameObject tooltip)
         {
+            QuestStatus status = GetComponent<QuestItemUI>().GetQuestStatus();
+            tooltip.GetComponent<QuestTooltipUI>().Setup(status);
         }
     }
 
