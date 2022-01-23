@@ -142,7 +142,7 @@ MonoBehaviour:
     width: 200
     height: 100
   onEnterAction: 
-  onExitAction: Attack
+  onExitAction: TestObjective
 --- !u!114 &4825516396193558548
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -165,7 +165,7 @@ MonoBehaviour:
     width: 200
     height: 100
   onEnterAction: 
-  onExitAction: Attack
+  onExitAction: TestObjective
 --- !u!114 &8744242383845838495
 MonoBehaviour:
   m_ObjectHideFlags: 0
