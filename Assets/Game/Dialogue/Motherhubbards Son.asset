@@ -1,0 +1,116 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-2607112691996812292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb617ab88ccf14af28f17d2989c8b2f2, type: 3}
+  m_Name: a492fe71-702e-4ee3-a30d-475ed710ea23
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: "\u0E44\u0E14\u0E49\u0E2A\u0E34 \u0E0A\u0E48\u0E27\u0E22\u0E22\u0E31\u0E07\u0E44\u0E07?"
+  children:
+  - 539c1614-fe10-4a2a-8ed5-d62713dac49a
+  rect:
+    serializedVersion: 2
+    x: 250
+    y: 0
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a13bc85e6f454a6aa048147ebc9e63d, type: 3}
+  m_Name: Motherhubbards Son
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: 8482033607866237822}
+  - {fileID: -2607112691996812292}
+  - {fileID: 7590899021848100944}
+  - {fileID: 6142233165035641439}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &6142233165035641439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb617ab88ccf14af28f17d2989c8b2f2, type: 3}
+  m_Name: 539c1614-fe10-4a2a-8ed5-d62713dac49a
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "\u0E41\u0E21\u0E48\u0E02\u0E2D\u0E07\u0E09\u0E31\u0E19\u0E15\u0E49\u0E2D\u0E07\u0E01\u0E32\u0E23\u0E02\u0E2D\u0E07\u0E01\u0E34\u0E19"
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 500
+    y: 0
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: GiveQuest
+--- !u!114 &7590899021848100944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb617ab88ccf14af28f17d2989c8b2f2, type: 3}
+  m_Name: 5dc2d94a-3948-4839-9382-a587bb82ab24
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: "\u0E09\u0E31\u0E19\u0E14\u0E39\u0E40\u0E2B\u0E21\u0E37\u0E2D\u0E19\u0E2B\u0E21\u0E2D\u0E23\u0E36\u0E44\u0E07?"
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 248
+    y: 114
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+--- !u!114 &8482033607866237822
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb617ab88ccf14af28f17d2989c8b2f2, type: 3}
+  m_Name: 93fef149-75c6-49a1-8d85-db9b23e7bca6
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "\u0E15\u0E2D\u0E19\u0E19\u0E35\u0E49\u0E41\u0E21\u0E48\u0E02\u0E2D\u0E07\u0E09\u0E31\u0E19\u0E21\u0E35\u0E1B\u0E31\u0E0D\u0E2B\u0E32
+    \u0E04\u0E38\u0E13\u0E0A\u0E48\u0E27\u0E22\u0E40\u0E23\u0E32\u0E44\u0E14\u0E49\u0E21\u0E31\u0E49\u0E22"
+  children:
+  - a492fe71-702e-4ee3-a30d-475ed710ea23
+  - 5dc2d94a-3948-4839-9382-a587bb82ab24
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
