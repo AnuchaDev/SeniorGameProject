@@ -13,5 +13,12 @@ MonoBehaviour:
   m_Name: Mother hubbards bunions
   m_EditorClassIdentifier: 
   objectives:
-  - 1
-  - 2
+  - reference: 2
+    description: Go irritate the guard.
+  rewards:
+  - number: 1
+    item: {fileID: 11400000, guid: f06ab3636dd9c45f7b5a20dfa3857bb1, type: 2}
+  - number: 1
+    item: {fileID: 11400000, guid: 25bd88e7af8514980ab59e0c436bb70f, type: 2}
+  - number: 2
+    item: {fileID: 11400000, guid: e020ab36ad81643e0a3dbd6e4098c2bb, type: 2}
