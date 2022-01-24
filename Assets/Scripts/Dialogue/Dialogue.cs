@@ -18,7 +18,7 @@ namespace RPG.Dialogue
 
         void Awake()
         {
-            OnValidate();    
+            OnValidate();
         }
 
         private void OnValidate()
