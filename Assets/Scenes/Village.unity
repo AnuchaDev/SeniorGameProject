@@ -32,7 +32,7 @@ RenderSettings:
   m_FlareFadeSpeed: 3
   m_HaloTexture: {fileID: 0}
   m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
-  m_DefaultReflectionMode: 1
+  m_DefaultReflectionMode: 0
   m_DefaultReflectionResolution: 128
   m_ReflectionBounces: 1
   m_ReflectionIntensity: 1
@@ -3670,7 +3670,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6797380174049031926, guid: 9065ec7e81ca8034a865d6fdd7906af9, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -570.7498
+      value: -570.75
       objectReference: {fileID: 0}
     - target: {fileID: 6797968905083020372, guid: 9065ec7e81ca8034a865d6fdd7906af9, type: 3}
       propertyPath: m_AnchorMax.x
@@ -8782,6 +8782,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1824878431}
     m_Modifications:
+    - target: {fileID: 1312741955571659273, guid: b4bb8a19803be40dc8f4280ca7feaa4d, type: 3}
+      propertyPath: shopName
+      value: "\u0E23\u0E49\u0E32\u0E19\u0E04\u0E49\u0E32\u0E02\u0E2D\u0E07\u0E42\u0E22"
+      objectReference: {fileID: 0}
     - target: {fileID: 2052548538085116308, guid: b4bb8a19803be40dc8f4280ca7feaa4d, type: 3}
       propertyPath: uniqueIdentifier
       value: c3fb84e0-ecc8-4143-a46f-8e2a4b11e7ed
@@ -8838,7 +8842,8 @@ PrefabInstance:
       propertyPath: m_Avatar
       value: 
       objectReference: {fileID: 9000000, guid: 792e61d487156d94db0fd45793a62d76, type: 3}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3592196330018343798, guid: b4bb8a19803be40dc8f4280ca7feaa4d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: b4bb8a19803be40dc8f4280ca7feaa4d, type: 3}
 --- !u!1001 &742473096
 PrefabInstance:
@@ -10806,6 +10811,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1824878431}
     m_Modifications:
+    - target: {fileID: 1312741955571659273, guid: b4bb8a19803be40dc8f4280ca7feaa4d, type: 3}
+      propertyPath: shopName
+      value: "\u0E23\u0E49\u0E32\u0E19\u0E04\u0E49\u0E32\u0E02\u0E2D\u0E07\u0E01\u0E31\u0E07\u0E1F\u0E39"
+      objectReference: {fileID: 0}
     - target: {fileID: 2052548538085116308, guid: b4bb8a19803be40dc8f4280ca7feaa4d, type: 3}
       propertyPath: uniqueIdentifier
       value: 338ae604-a98f-4fdb-ae96-caadd91582f1
@@ -10862,7 +10871,8 @@ PrefabInstance:
       propertyPath: m_Avatar
       value: 
       objectReference: {fileID: 9000000, guid: 792e61d487156d94db0fd45793a62d76, type: 3}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3592196330018343798, guid: b4bb8a19803be40dc8f4280ca7feaa4d, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: b4bb8a19803be40dc8f4280ca7feaa4d, type: 3}
 --- !u!4 &1186585793 stripped
 Transform:

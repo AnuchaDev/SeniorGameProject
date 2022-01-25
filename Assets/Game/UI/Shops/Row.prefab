@@ -349,6 +349,55 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 7314027499163415014, guid: 5bba8e6019d91a444a44149f3536d946, type: 3}
   m_PrefabInstance: {fileID: 7068139619472013701}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &4310745062558507314 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6468792229722839223, guid: 5bba8e6019d91a444a44149f3536d946, type: 3}
+  m_PrefabInstance: {fileID: 7068139619472013701}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4451270748993615954 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 6904304791554851287, guid: 5bba8e6019d91a444a44149f3536d946, type: 3}
+  m_PrefabInstance: {fileID: 7068139619472013701}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &375798591029490768 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 7430949671005703637, guid: 5bba8e6019d91a444a44149f3536d946, type: 3}
+  m_PrefabInstance: {fileID: 7068139619472013701}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4015274544968494624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6753614575951474732}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab696142e7f11411fa3cda6a3c9a9200, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  iconField: {fileID: 7395702227227339063}
+  nameField: {fileID: 4310745062558507314}
+  availabilityField: {fileID: 4451270748993615954}
+  priceField: {fileID: 375798591029490768}
 --- !u!114 &7632540724924794784
 MonoBehaviour:
   m_ObjectHideFlags: 0
