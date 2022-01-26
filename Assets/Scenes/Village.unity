@@ -10845,7 +10845,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1312741955571659273, guid: b4bb8a19803be40dc8f4280ca7feaa4d, type: 3}
       propertyPath: stockConfig.Array.data[2].initialStock
-      value: 1
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 1312741955571659273, guid: b4bb8a19803be40dc8f4280ca7feaa4d, type: 3}
+      propertyPath: stockConfig.Array.data[3].initialStock
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 1312741955571659273, guid: b4bb8a19803be40dc8f4280ca7feaa4d, type: 3}
       propertyPath: stockConfig.Array.data[0].buyingDiscountPercentage

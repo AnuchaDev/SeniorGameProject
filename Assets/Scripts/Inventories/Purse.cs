@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -10,10 +11,12 @@ namespace RPG.Inventories
 
         float balance = 0;
 
+        public event Action onChange;
+
         private void Awake()
         {
             balance = startingBalance;
-            print($"Balance:{balance}");
+            //print($"Balance:{balance}");
         }
 
         public float GetBalance()
@@ -24,7 +27,11 @@ namespace RPG.Inventories
         public void UpdateBalance(float amount)
         {
             balance += amount;
-            print($"Balance:{balance}");
+            //print($"Balance:{balance}");
+            if(onChange != null)
+            {
+                onChange();
+            }
         }
     }
 
