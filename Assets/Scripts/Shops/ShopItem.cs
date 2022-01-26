@@ -1,4 +1,5 @@
-﻿using GameDev.Inventories;
+﻿using System;
+using GameDev.Inventories;
 using UnityEngine;
 
 namespace RPG.Shops
@@ -36,6 +37,16 @@ namespace RPG.Shops
         public float GetPrice()
         {
             return price;
+        }
+
+        public InventoryItem GetInventoryItem()
+        {
+            return item;
+        }
+
+        public int GetQuantityInTransaction()
+        {
+            return quantityInTransaction;
         }
     }
 }

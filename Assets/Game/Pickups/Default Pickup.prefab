@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3687823437925677205}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 289.30896, y: 296.505, z: -2.9990268}
+  m_LocalPosition: {x: 289.30896, y: 297.78, z: -2.9990268}
   m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -116,8 +116,8 @@ Light:
   serializedVersion: 10
   m_Type: 2
   m_Shape: 0
-  m_Color: {r: 0.9150943, g: 0.081108265, b: 0.030215396, a: 1}
-  m_Intensity: 2.74
+  m_Color: {r: 0.24875888, g: 0.9056604, b: 0.046991818, a: 1}
+  m_Intensity: 0.4
   m_Range: 10
   m_SpotAngle: 30
   m_InnerSpotAngle: 21.80208
@@ -194,8 +194,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9018217176286321711}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 0, y: 0.5, z: 0}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 6173691369544781947}
@@ -209,7 +209,7 @@ MeshFilter:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9018217176286321711}
-  m_Mesh: {fileID: 4300000, guid: 421d230f7937a5c498bda64577a518aa, type: 3}
+  m_Mesh: {fileID: 4300000, guid: 190b1f8954207fd4294b1bad4841eeeb, type: 3}
 --- !u!23 &9096891685423170494
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -230,7 +230,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 45f78d57c831abe43a9f7102116e69af, type: 2}
+  - {fileID: 2100000, guid: 8d4c8eb36fda89c41b05fe6969ab8c5c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -265,4 +265,4 @@ MeshCollider:
   serializedVersion: 4
   m_Convex: 0
   m_CookingOptions: 30
-  m_Mesh: {fileID: 4300000, guid: 421d230f7937a5c498bda64577a518aa, type: 3}
+  m_Mesh: {fileID: 4300000, guid: 190b1f8954207fd4294b1bad4841eeeb, type: 3}

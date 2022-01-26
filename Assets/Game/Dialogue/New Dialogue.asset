@@ -25,6 +25,8 @@ MonoBehaviour:
     height: 100
   onEnterAction: RootEntry
   onExitAction: 
+  condition:
+    and: []
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -71,6 +73,8 @@ MonoBehaviour:
     height: 100
   onEnterAction: 
   onExitAction: 
+  condition:
+    and: []
 --- !u!114 &1727420352224290612
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -95,6 +99,8 @@ MonoBehaviour:
     height: 100
   onEnterAction: TestSelection
   onExitAction: 
+  condition:
+    and: []
 --- !u!114 &2135895099345441904
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -120,6 +126,8 @@ MonoBehaviour:
     height: 100
   onEnterAction: 
   onExitAction: TestAIExit
+  condition:
+    and: []
 --- !u!114 &3055236629448949716
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -142,7 +150,9 @@ MonoBehaviour:
     width: 200
     height: 100
   onEnterAction: 
-  onExitAction: TestObjective
+  onExitAction: Attack
+  condition:
+    and: []
 --- !u!114 &4825516396193558548
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -166,6 +176,8 @@ MonoBehaviour:
     height: 100
   onEnterAction: 
   onExitAction: TestObjective
+  condition:
+    and: []
 --- !u!114 &8744242383845838495
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -191,6 +203,8 @@ MonoBehaviour:
     height: 100
   onEnterAction: 
   onExitAction: 
+  condition:
+    and: []
 --- !u!114 &9145708078076402855
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -215,3 +229,5 @@ MonoBehaviour:
     height: 100
   onEnterAction: 
   onExitAction: 
+  condition:
+    and: []
