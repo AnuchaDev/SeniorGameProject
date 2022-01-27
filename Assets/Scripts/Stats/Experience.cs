@@ -8,6 +8,16 @@ namespace RPG.Stats
     {
         [SerializeField] float experiencePoints = 0;
 
+        //DebugMode
+        private void Update()
+        {
+            if (Input.GetKey(KeyCode.E))
+            {
+                GainExperience(Time.deltaTime * 100);
+            }
+        }
+        //EndDebugMode
+
         public event Action onExperienceGained;
 
         public void GainExperience(float experience)
