@@ -32,9 +32,7 @@ namespace Polyperfect.People
         {
             isGrounded = Grounded();
 
-            //Allow the player to move left and right
             float horizontalMove = Input.GetAxisRaw("Horizontal");
-            //Allow the player to move forward and back
             float vertical = Input.GetAxisRaw("Vertical");
 
             float speed = walkSpeed;
