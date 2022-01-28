@@ -1,4 +1,3 @@
-using System.Collections;
 using System.Collections.Generic;
 using GameDev.Inventories;
 using UnityEngine;
@@ -10,24 +9,33 @@ namespace RPG.Abilities
     {
         [SerializeField] TargetingStrategy targetingStrategy;
         [SerializeField] FilterStrategy[] filterStrategies;
+        [SerializeField] EffectStrategy[] effectStrategies;
 
         public override void Use(GameObject user)
         {
-            targetingStrategy.StartTargeting(user,TargetAquired);
+            AbilityData data = new AbilityData(user);
+            targetingStrategy.StartTargeting(data,
+                () => {
+                    TargetAquired(data);
+                });
         }
 
-        private void TargetAquired(IEnumerable<GameObject> targets)
+        private void TargetAquired(AbilityData data)
         {
-            Debug.Log("Target Aquired");
-            foreach(var filterStrategy in filterStrategies)
+            foreach (var filterStrategy in filterStrategies)
             {
-                targets = filterStrategy.Filter(targets);
+                data.SetTargets(filterStrategy.Filter(data.GetTargets()));
             }
-            foreach(var target in targets)
+
+            foreach (var effect in effectStrategies)
             {
-                Debug.Log(target);
+                effect.StartEffect(data, EffectFinished);
             }
+        }
+
+        private void EffectFinished()
+        {
+
         }
     }
-
 }

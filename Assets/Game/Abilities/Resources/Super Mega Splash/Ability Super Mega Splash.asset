@@ -24,3 +24,6 @@ MonoBehaviour:
   targetingStrategy: {fileID: 11400000, guid: f4e8003e0657b42c7a34adf2d9982bb8, type: 2}
   filterStrategies:
   - {fileID: 11400000, guid: 704af11c773974a39b36ca2d29161e6a, type: 2}
+  effectStrategies:
+  - {fileID: 11400000, guid: 319855a88befe4fefa8e3e70498204f1, type: 2}
+  - {fileID: 11400000, guid: 68d2b839a9bcf4e7ca924340d9fff756, type: 2}
