@@ -2,7 +2,9 @@
 using System.Collections.Generic;
 using GameDev.Core.UI.Dragging;
 using GameDev.Inventories;
+using RPG.Abilities;
 using UnityEngine;
+using UnityEngine.UI;
 
 namespace GameDev.UI.Inventories
 {
@@ -12,15 +14,24 @@ namespace GameDev.UI.Inventories
         // CONFIG DATA
         [SerializeField] InventoryItemIcon icon = null;
         [SerializeField] int index = 0;
+        [SerializeField] Image cooldownOverlay = null;
 
         // CACHE
         ActionStore store;
+        CooldownStore cooldownStore;
 
         // LIFECYCLE METHODS
         private void Awake()
         {
-            store = GameObject.FindGameObjectWithTag("Player").GetComponent<ActionStore>();
+            GameObject player = GameObject.FindGameObjectWithTag("Player");
+            store = player.GetComponent<ActionStore>();
+            cooldownStore = player.GetComponent<CooldownStore>();
             store.storeUpdated += UpdateIcon;
+        }
+
+        private void Update()
+        {
+            cooldownOverlay.fillAmount = cooldownStore.GetFranctionRemaining(GetItem());
         }
 
         // PUBLIC

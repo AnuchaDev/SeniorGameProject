@@ -218,6 +218,19 @@ CapsuleCollider:
   m_Height: 1.79
   m_Direction: 1
   m_Center: {x: 0, y: 0.82, z: 0}
+--- !u!114 &494582899058599705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4902660786131331472}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc51fb26247264e2cbc53e6d6bf5bf3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingBalance: 400
 --- !u!114 &1948301194341941382
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -328,6 +341,7 @@ MonoBehaviour:
     hotspot: {x: 0, y: 0}
   maxNavMeshProjectionDistance: 1
   raycastRadius: 1
+  numberOfAbilities: 6
 --- !u!114 &7143633445279409084
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -355,7 +369,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scatterDistance: 1
   dropLibrary: {fileID: 0}
---- !u!114 &494582899058599705
+--- !u!114 &3265429396473388462
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -364,10 +378,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 4902660786131331472}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fc51fb26247264e2cbc53e6d6bf5bf3b, type: 3}
+  m_Script: {fileID: 11500000, guid: 02a06f4ec3eb84a8ebdea8244b48b689, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingBalance: 400
 --- !u!1001 &4617282049956669166
 PrefabInstance:
   m_ObjectHideFlags: 0
