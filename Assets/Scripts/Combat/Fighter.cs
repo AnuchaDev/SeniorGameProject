@@ -21,6 +21,7 @@ namespace RPG.Combat
         Health target;
         Equipment equipment;
         float timeSinceLastAttack = Mathf.Infinity;
+
         WeaponConfig currentWeaponConfig;
         LazyValue<Weapon> currentWeapon;
 
@@ -184,5 +185,18 @@ namespace RPG.Combat
             WeaponConfig weapon = UnityEngine.Resources.Load<WeaponConfig>(weaponName);
             EquipWeapon(weapon);
         }
+
+        public Transform GetHandTransform(bool isRightHand)
+        {
+            if (isRightHand)
+            {
+                return rightHandTransform;
+            }
+            else
+            {
+                return leftHandTransform;
+            }
+        }
+
     }
 }

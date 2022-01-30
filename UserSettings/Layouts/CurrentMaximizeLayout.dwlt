@@ -24,7 +24,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 200}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 14564
+  controlID: 17080
 --- !u!114 &2
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -141,7 +141,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 200}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 14565
+  controlID: 17081
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -166,7 +166,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 14566
+  controlID: 17082
 --- !u!114 &5
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -186,8 +186,8 @@ MonoBehaviour:
     y: 0
     width: 288
     height: 419
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 201, y: 221}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 6}
   m_Panes:
   - {fileID: 6}
@@ -224,9 +224,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 1a74faff
+      m_SelectedIDs: 020af9ff
       m_LastClickedID: 0
-      m_ExpandedIDs: 56a7faffb4b6faff30b7faff3838fbffb638fbffdc41fbffe852fbff6453fbffc076fbff3e77fbff2eeefbfffafdfbff980afcffa60afcffa80afcff502efcffce2efcffcc4ffcff6a5efcff086efcffa880fcffa091fcff3893fcff4893fcff26f9ffffa4f9ffff4455000086b50700ee790800
+      m_ExpandedIDs: 56a7faffb4b6faff30b7faff3838fbffb638fbffdc41fbffe852fbff6453fbffc076fbff3e77fbff2eeefbfffafdfbff980afcffa60afcffa80afcff502efcffce2efcffcc4ffcff6a5efcff086efcffa880fcffa091fcff3893fcff4893fcff26f9ffffa4f9ffff4455000086b50700dc790800ee790800
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -635,7 +635,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 14582
+  controlID: 16997
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -692,7 +692,7 @@ MonoBehaviour:
     m_LastAppliedPresetName: Default
     m_SaveData: []
   m_SearchFilter:
-    m_NameFilter: heal
+    m_NameFilter: 
     m_ClassNames: []
     m_AssetLabels: []
     m_AssetBundleNames: []
@@ -704,21 +704,21 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Asset Packs/PolygonParticleFX
+    - Assets/Game/Abilities/Resources/Fire Spray
     m_Globs: []
-    m_OriginalText: heal
+    m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Asset Packs/PolygonParticleFX
+  - Assets/Game/Abilities/Resources/Fire Spray
   m_LastFoldersGridSize: -1
   m_LastProjectPath: /Users/anucha/UnityGame/SeniorProject/SeniorGameProject
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 139.52338}
-    m_SelectedIDs: fed60100
-    m_LastClickedID: 120574
+    scrollPos: {x: 0, y: 386.9521}
+    m_SelectedIDs: 98160b00
+    m_LastClickedID: 726680
     m_ExpandedIDs: 00000000388500003a8500003c8500003e85000040850000428500004485000000ca9a3b
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -772,8 +772,8 @@ MonoBehaviour:
       m_Icon: {fileID: 0}
       m_ResourceFile: 
   m_ListAreaState:
-    m_SelectedInstanceIDs: 1a74faff
-    m_LastClickedInstanceID: -363494
+    m_SelectedInstanceIDs: 020af9ff
+    m_LastClickedInstanceID: -456190
     m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300006e1b02000e1a0200307e0000fe7d0000e6560000aa8c0000faaa0000e48e000086810000f4c100009ab70000d4140000d0570000c2800300325d0000
     m_RenameOverlay:
@@ -850,8 +850,8 @@ MonoBehaviour:
     y: 0
     width: 239
     height: 309
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 102, y: 121}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 15}
@@ -1095,8 +1095,8 @@ MonoBehaviour:
     y: 0
     width: 411
     height: 728
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}

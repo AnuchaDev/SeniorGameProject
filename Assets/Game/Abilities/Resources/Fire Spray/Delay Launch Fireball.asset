@@ -9,7 +9,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: da707f9c64cae4c37892563ed55b69d5, type: 3}
-  m_Name: TagFilter
+  m_Script: {fileID: 11500000, guid: 4d80c1add54db40be8311ffa4b241c83, type: 3}
+  m_Name: Delay Launch Fireball
   m_EditorClassIdentifier: 
-  tagToFilter: Enemy
+  delay: 0.53
+  delayedEffects:
+  - {fileID: 11400000, guid: 6d23d9e0cf17446eda92738f5f8040f7, type: 2}
+  abortIfCancelled: 0
