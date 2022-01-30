@@ -25,8 +25,7 @@ MonoBehaviour:
   filterStrategies:
   - {fileID: 11400000, guid: 704af11c773974a39b36ca2d29161e6a, type: 2}
   effectStrategies:
-  - {fileID: 11400000, guid: 319855a88befe4fefa8e3e70498204f1, type: 2}
-  - {fileID: 11400000, guid: 68d2b839a9bcf4e7ca924340d9fff756, type: 2}
+  - {fileID: 11400000, guid: fc3680994fbf74cf9951dd23ddf5ac31, type: 2}
   - {fileID: 11400000, guid: 71271bb1378354769a6ccdd4de6bb9c2, type: 2}
   - {fileID: 11400000, guid: 3af606d9a7df84070ab76e5793f24c73, type: 2}
   cooldownTime: 2
