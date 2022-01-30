@@ -1,4 +1,4 @@
-namespace GameDev.saving
+namespace GameDev.Saving
 {
 
     public interface ISaveable

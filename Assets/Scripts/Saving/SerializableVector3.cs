@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace GameDev.saving
+namespace GameDev.Saving
 {
 
     [System.Serializable]
