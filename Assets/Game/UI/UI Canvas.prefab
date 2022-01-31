@@ -478,8 +478,8 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2012917585700316199}
   m_HandleRect: {fileID: 224153372062608982}
   m_Direction: 2
-  m_Value: -0.0000032969679
-  m_Size: 0.94257903
+  m_Value: 0
+  m_Size: 0.94257915
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -1139,7 +1139,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000030517578, y: -570.74976}
+  m_AnchoredPosition: {x: 0.000030517578, y: -570.75}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &4131155162176750999
@@ -2830,15 +2830,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6483038982094663646, guid: 71720a445ebe24125894330eb6f31f9f, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 162.0918
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6668897579985102437, guid: 71720a445ebe24125894330eb6f31f9f, type: 3}
       propertyPath: m_Size
-      value: 0.7986148
+      value: 0.79861474
       objectReference: {fileID: 0}
     - target: {fileID: 6668897579985102437, guid: 71720a445ebe24125894330eb6f31f9f, type: 3}
       propertyPath: m_Value
-      value: -0.000005271686
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 7019903699071990035, guid: 71720a445ebe24125894330eb6f31f9f, type: 3}
       propertyPath: m_AnchorMax.x
@@ -3932,6 +3932,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 224285457996228904}
     m_Modifications:
+    - target: {fileID: 458564518900295377, guid: 47ccee0b050734feeae2e88e0c64c9d0, type: 3}
+      propertyPath: trait
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 523453649519040909, guid: 47ccee0b050734feeae2e88e0c64c9d0, type: 3}
+      propertyPath: trait
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 1389719063743100079, guid: 47ccee0b050734feeae2e88e0c64c9d0, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -4019,6 +4027,14 @@ PrefabInstance:
     - target: {fileID: 4422200050866207673, guid: 47ccee0b050734feeae2e88e0c64c9d0, type: 3}
       propertyPath: m_Name
       value: Traits UI
+      objectReference: {fileID: 0}
+    - target: {fileID: 5950304875250780081, guid: 47ccee0b050734feeae2e88e0c64c9d0, type: 3}
+      propertyPath: trait
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7053559720298617331, guid: 47ccee0b050734feeae2e88e0c64c9d0, type: 3}
+      propertyPath: trait
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 47ccee0b050734feeae2e88e0c64c9d0, type: 3}

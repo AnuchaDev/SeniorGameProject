@@ -2422,7 +2422,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2736928736702447881, guid: 9065ec7e81ca8034a865d6fdd7906af9, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0
+      value: -0.000007999358
       objectReference: {fileID: 0}
     - target: {fileID: 2907261254586093788, guid: 9065ec7e81ca8034a865d6fdd7906af9, type: 3}
       propertyPath: m_AnchorMax.y
@@ -3666,7 +3666,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6797195559337111478, guid: 9065ec7e81ca8034a865d6fdd7906af9, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -0.8499756
+      value: -0.85009766
       objectReference: {fileID: 0}
     - target: {fileID: 6797327648251930824, guid: 9065ec7e81ca8034a865d6fdd7906af9, type: 3}
       propertyPath: m_RootOrder
@@ -3675,6 +3675,10 @@ PrefabInstance:
     - target: {fileID: 6797380174049031926, guid: 9065ec7e81ca8034a865d6fdd7906af9, type: 3}
       propertyPath: m_SizeDelta.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6797380174049031926, guid: 9065ec7e81ca8034a865d6fdd7906af9, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 0.00018310547
       objectReference: {fileID: 0}
     - target: {fileID: 6797380174049031926, guid: 9065ec7e81ca8034a865d6fdd7906af9, type: 3}
       propertyPath: m_AnchoredPosition.y
@@ -3878,7 +3882,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7121495265682168673, guid: 9065ec7e81ca8034a865d6fdd7906af9, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.000030517578
+      value: 0.00010795238
       objectReference: {fileID: 0}
     - target: {fileID: 7122851093835086472, guid: 9065ec7e81ca8034a865d6fdd7906af9, type: 3}
       propertyPath: m_AnchorMax.y
@@ -6723,7 +6727,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 449014330}
-  m_LocalRotation: {x: 0.052798264, y: -0.25271434, z: 0.013812496, w: 0.96600056}
+  m_LocalRotation: {x: 0.052798286, y: -0.2527143, z: 0.013812499, w: 0.96600056}
   m_LocalPosition: {x: -28.418999, y: 2.6535158, z: 24.490223}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
@@ -6781,7 +6785,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.9602122, y: 1}
+    m_SensorSize: {x: 2.1538463, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -10495,7 +10499,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.9602122, y: 1}
+    m_SensorSize: {x: 2.1538463, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -10913,27 +10917,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1312741955571659273, guid: b4bb8a19803be40dc8f4280ca7feaa4d, type: 3}
       propertyPath: stockConfig.Array.data[0].buyingDiscountPercentage
-      value: 9.2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1312741955571659273, guid: b4bb8a19803be40dc8f4280ca7feaa4d, type: 3}
       propertyPath: stockConfig.Array.data[2].buyingDiscountPercentage
-      value: 30
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1312741955571659273, guid: b4bb8a19803be40dc8f4280ca7feaa4d, type: 3}
       propertyPath: stockConfig.Array.data[4].buyingDiscountPercentage
-      value: 12.2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1312741955571659273, guid: b4bb8a19803be40dc8f4280ca7feaa4d, type: 3}
       propertyPath: stockConfig.Array.data[5].buyingDiscountPercentage
-      value: 12.2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1312741955571659273, guid: b4bb8a19803be40dc8f4280ca7feaa4d, type: 3}
       propertyPath: stockConfig.Array.data[6].buyingDiscountPercentage
-      value: 12.2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1312741955571659273, guid: b4bb8a19803be40dc8f4280ca7feaa4d, type: 3}
       propertyPath: stockConfig.Array.data[7].buyingDiscountPercentage
-      value: 2.1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2052548538085116308, guid: b4bb8a19803be40dc8f4280ca7feaa4d, type: 3}
       propertyPath: uniqueIdentifier
@@ -13727,7 +13731,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.9602122, y: 1}
+    m_SensorSize: {x: 2.1538463, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -16662,6 +16666,10 @@ PrefabInstance:
     - target: {fileID: 4885839288208883821, guid: 4590d12267dc29e4cb667288a8903e7a, type: 3}
       propertyPath: m_Name
       value: HUD
+      objectReference: {fileID: 0}
+    - target: {fileID: 8526190114473436331, guid: 4590d12267dc29e4cb667288a8903e7a, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 55.911743
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4590d12267dc29e4cb667288a8903e7a, type: 3}
