@@ -40,6 +40,12 @@ namespace GameDev.Saving
             RestoreState(LoadFile(saveFile));
         }
 
+        public bool SaveFileExists(string saveFile)
+        {
+            string path = GetPathFromSaveFile(saveFile);
+            return File.Exists(path);
+        }
+
         // PRIVATE
 
         private Dictionary<string, object> LoadFile(string saveFile)
