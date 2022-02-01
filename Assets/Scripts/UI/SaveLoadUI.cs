@@ -15,11 +15,12 @@ namespace RPG.UI
         private void OnEnable()
         {
             //print("Loading Saves...");
-            foreach(Transform child in contentRoot)
+            SavingWrapper savingWrapper = FindObjectOfType<SavingWrapper>();
+            if (savingWrapper == null) return;
+            foreach (Transform child in contentRoot)
             {
                 Destroy(child.gameObject);
             }
-            SavingWrapper savingWrapper = FindObjectOfType<SavingWrapper>();
             foreach (string save in savingWrapper.ListSaves())
             {
                 GameObject buttonInstance = Instantiate(buttonPrefab, contentRoot);
