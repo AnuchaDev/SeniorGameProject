@@ -1,5 +1,6 @@
 using System;
 using System.Collections;
+using System.Collections.Generic;
 using GameDev.Saving;
 using UnityEngine;
 using UnityEngine.SceneManagement;
@@ -27,9 +28,20 @@ namespace RPG.SceneManagement
             StartCoroutine(LoadFirstScene());
         }
 
+        public void LoadGame(string saveFile)
+        {
+            SetCurrentSave(saveFile);
+            ContinueGame();
+        }
+
         private void SetCurrentSave(string saveFile)
         {
             PlayerPrefs.SetString(currentSaveKey, saveFile);
+        }
+
+        public IEnumerable<string> ListSaves()
+        {
+            return GetComponent<SavingSystem>().ListSaves();
         }
 
         public string GetCurrentSave()
