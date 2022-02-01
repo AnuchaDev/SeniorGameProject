@@ -7,6 +7,7 @@ using RPG.Movement;
 using UnityEngine;
 using RPG.Attributes;
 using GameDev.Utils;
+using UnityEngine.AI;
 
 namespace RPG.Control
 {
@@ -41,6 +42,17 @@ namespace RPG.Control
             player = GameObject.FindWithTag("Player");
 
             guardPosition = new LazyValue<Vector3>(GetGuardPosition);
+            guardPosition.ForceInit();
+        }
+
+        public void Reset()
+        {
+            NavMeshAgent navMeshAgent = GetComponent<NavMeshAgent>();
+            navMeshAgent.Warp(guardPosition.value);
+            timeSinceLastSawPlayer = Mathf.Infinity;
+            timeSinceArrivedAtWaypoint = Mathf.Infinity;
+            timeSinceAggrevated = Mathf.Infinity;
+            currentWaypointIndex = 0;
         }
 
         private Vector3 GetGuardPosition()
@@ -50,7 +62,6 @@ namespace RPG.Control
 
         private void Start()
         {
-            guardPosition.ForceInit();
         }
 
         private void Update()
@@ -131,13 +142,13 @@ namespace RPG.Control
             timeSinceLastSawPlayer = 0;
             fighter.Attack(player);
 
-            AggrevateNearByEnemies();
+            AggrevateNearbyEnemies();
         }
 
-        private void AggrevateNearByEnemies()
+        private void AggrevateNearbyEnemies()
         {
             RaycastHit[] hits = Physics.SphereCastAll(transform.position, shoutDistance, Vector3.up, 0);
-            foreach(RaycastHit hit in hits)
+            foreach (RaycastHit hit in hits)
             {
                 AIController ai = hit.collider.GetComponent<AIController>();
                 if (ai == null) continue;
@@ -152,6 +163,7 @@ namespace RPG.Control
             return distanceToPlayer < chaseDistance || timeSinceAggrevated < agroCooldownTime;
         }
 
+        // Called by Unity
         private void OnDrawGizmosSelected()
         {
             Gizmos.color = Color.blue;
