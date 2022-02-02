@@ -12,9 +12,10 @@ namespace GameDev.Inventories
         [SerializeField] bool consumable = false;
 
         // PUBLIC
-        public virtual void Use(GameObject user)
+        public virtual bool Use(GameObject user)
         {
             Debug.Log("Using action: " + this);
+            return false;
         }
 
         public bool isConsumable()

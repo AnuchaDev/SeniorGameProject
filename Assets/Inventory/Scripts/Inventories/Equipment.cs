@@ -27,7 +27,7 @@ namespace GameDev.Inventories
 
         public void AddItem(EquipLocation slot, EquipableItem item)
         {
-            Debug.Assert(item.GetAllowedEquipLocation() == slot);
+            Debug.Assert(item.CanEquip(slot,this));
 
             equippedItems[slot] = item;
 

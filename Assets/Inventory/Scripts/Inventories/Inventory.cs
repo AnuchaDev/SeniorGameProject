@@ -3,6 +3,7 @@ using UnityEngine;
 using GameDev.Saving;
 using RPG.Core;
 using System.Collections.Generic;
+using GameDev.Utils;
 
 namespace GameDev.Inventories
 {
@@ -74,6 +75,13 @@ namespace GameDev.Inventories
 
         public bool AddToFirstEmptySlot(InventoryItem item, int number)
         {
+            foreach (var store in GetComponents<IItemStore>())
+            {
+                number -= store.AddItems(item, number);
+            }
+
+            if (number <= 0) return true;
+
             int i = FindSlot(item);
 
             if (i < 0)

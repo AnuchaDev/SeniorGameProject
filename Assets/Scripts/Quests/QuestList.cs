@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using GameDev.Inventories;
 using GameDev.Saving;
-using RPG.Core;
+using GameDev.Utils;
 using UnityEngine;
 
 namespace RPG.Quests
