@@ -77,6 +77,7 @@ namespace GameDev.Inventories
                     equippedItems[pair.Key] = item;
                 }
             }
+            equipmentUpdated?.Invoke();
         }
     }
 }

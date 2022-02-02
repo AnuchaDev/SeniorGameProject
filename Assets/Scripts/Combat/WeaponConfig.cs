@@ -94,7 +94,7 @@ namespace RPG.Combat
 
         public IEnumerable<float> GetAdditiveModifiers(Stat stat)
         {
-            if (stat == Stat.Damage)
+            if (stat == Stat.Defence)
             {
                 yield return weaponDamage;
             }
@@ -102,7 +102,7 @@ namespace RPG.Combat
 
         public IEnumerable<float> GetPercentageModifiers(Stat stat)
         {
-            if (stat == Stat.Damage)
+            if (stat == Stat.Defence)
             {
                 yield return percentageBonus;
             }

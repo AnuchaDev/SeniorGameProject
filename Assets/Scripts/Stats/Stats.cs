@@ -5,7 +5,7 @@ namespace RPG.Stats
         Health,
         ExperienceReward,
         ExperienceToLevelUp,
-        Damage,
+        Defence,
         Mana,
         ManaRegenRate,
         TotalTraitPoints,
