@@ -152,7 +152,7 @@ namespace RPG.Combat
         {
             if (target == null) { return; }
 
-            float damage = GetComponent<BaseStats>().GetStat(Stat.Defence);
+            float damage = GetComponent<BaseStats>().GetStat(Stat.Damage);
             BaseStats targetBaseStats = target.GetComponent<BaseStats>();
 
             if(targetBaseStats != null)
