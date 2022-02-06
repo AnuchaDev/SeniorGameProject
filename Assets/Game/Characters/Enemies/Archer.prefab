@@ -9,7 +9,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 983642264934612947, guid: 97794e8f32d9d574c8ed85db378e8c47, type: 3}
       propertyPath: chaseDistance
-      value: 20
+      value: 10
       objectReference: {fileID: 0}
     - target: {fileID: 1466135209984916882, guid: 97794e8f32d9d574c8ed85db378e8c47, type: 3}
       propertyPath: m_RootOrder

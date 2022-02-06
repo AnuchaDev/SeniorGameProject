@@ -145,11 +145,19 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 1172905976, guid: 750e3c6876a501e42b5827ec7a3d24d1, type: 3}
       propertyPath: maxSpeed
-      value: 4.5
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1172905976, guid: 750e3c6876a501e42b5827ec7a3d24d1, type: 3}
+      propertyPath: maxNavPathLength
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 1172905977, guid: 750e3c6876a501e42b5827ec7a3d24d1, type: 3}
       propertyPath: m_Speed
-      value: 3
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 1172905977, guid: 750e3c6876a501e42b5827ec7a3d24d1, type: 3}
+      propertyPath: m_Acceleration
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 456998495081794104, guid: 750e3c6876a501e42b5827ec7a3d24d1, type: 3}
       propertyPath: m_RootOrder
@@ -350,14 +358,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04821f510f07ff84b874685ba4438a01, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  chaseDistance: 5.5
+  chaseDistance: 6
   suspicionTime: 5
-  agroCooldownTime: 5
+  agroCooldownTime: 3
   patrolPath: {fileID: 0}
   waypointTolerance: 1
   waypointDwellTime: 3
   patrolSpeedFraction: 0.2
-  shoutDistance: 5
+  shoutDistance: 7
 --- !u!114 &4869708733900857438
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 187b7485-fb65-4ca6-bb0d-d77644c0b9c1
   m_EditorClassIdentifier: 
   isPlayerSpeaking: 0
-  text: "\u0E42\u0E2B\u0E25"
+  text: "\u0E21\u0E35\u0E2D\u0E30\u0E44\u0E23?"
   children:
   - 68b1ed43-815d-428f-8095-880ac86e4037
   - b8dbd625-1333-41c1-8b10-37474d79d73e
@@ -37,7 +37,7 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2a13bc85e6f454a6aa048147ebc9e63d, type: 3}
-  m_Name: New Dialogue
+  m_Name: Anger
   m_EditorClassIdentifier: 
   nodes:
   - {fileID: -262701585940406865}
@@ -62,7 +62,7 @@ MonoBehaviour:
   m_Name: 68b1ed43-815d-428f-8095-880ac86e4037
   m_EditorClassIdentifier: 
   isPlayerSpeaking: 1
-  text: "\u0E2D\u0E35\u0E2B\u0E22\u0E31\u0E07"
+  text: "\u0E2A\u0E31\u0E01\u0E2B\u0E21\u0E31\u0E14\u0E44\u0E2B\u0E21?"
   children:
   - 3e920ddf-843d-47c4-b016-dce5060b302f
   rect:
@@ -88,9 +88,9 @@ MonoBehaviour:
   m_Name: b8dbd625-1333-41c1-8b10-37474d79d73e
   m_EditorClassIdentifier: 
   isPlayerSpeaking: 1
-  text: "\u0E04\u0E23\u0E31\u0E1A"
+  text: "\u0E40\u0E1B\u0E25\u0E48\u0E32\u0E04\u0E23\u0E31\u0E1A"
   children:
-  - 3e920ddf-843d-47c4-b016-dce5060b302f
+  - 17eec4c0-7b64-4c6a-bd8d-79f74d642e22
   rect:
     serializedVersion: 2
     x: 303
@@ -114,7 +114,7 @@ MonoBehaviour:
   m_Name: 3e920ddf-843d-47c4-b016-dce5060b302f
   m_EditorClassIdentifier: 
   isPlayerSpeaking: 0
-  text: "\u0E2B\u0E34\u0E27\u0E02\u0E49\u0E32\u0E27"
+  text: "\u0E01\u0E27\u0E19\u0E2B\u0E23\u0E2D \u0E21\u0E32\u0E14\u0E34"
   children:
   - 15c3b274-7620-4ac0-8258-56c6785a97eb
   - 11b77593-e488-4fad-9b14-021bb052c089
@@ -141,12 +141,12 @@ MonoBehaviour:
   m_Name: c9e36f67-160f-4429-8b2a-9ce82bcc29ba
   m_EditorClassIdentifier: 
   isPlayerSpeaking: 0
-  text: "\u0E44\u0E21\u0E48\u0E21\u0E35\u0E40\u0E07\u0E34\u0E19 \u0E2B\u0E34\u0E27\u0E02\u0E49\u0E32\u0E27"
+  text: "\u0E40\u0E08\u0E2D\u0E41\u0E19\u0E48!!!"
   children: []
   rect:
     serializedVersion: 2
     x: 1057
-    y: 132
+    y: 133
     width: 200
     height: 100
   onEnterAction: 
@@ -170,12 +170,12 @@ MonoBehaviour:
   children: []
   rect:
     serializedVersion: 2
-    x: 1055
+    x: 1054
     y: 37
     width: 200
     height: 100
   onEnterAction: 
-  onExitAction: TestObjective
+  onExitAction: 
   condition:
     and: []
 --- !u!114 &8744242383845838495
@@ -191,8 +191,7 @@ MonoBehaviour:
   m_Name: 11b77593-e488-4fad-9b14-021bb052c089
   m_EditorClassIdentifier: 
   isPlayerSpeaking: 1
-  text: "\u0E09\u0E31\u0E19\u0E21\u0E35\u0E02\u0E2D\u0E07\u0E01\u0E34\u0E19\u0E2D\u0E22\u0E39\u0E48
-    \u0E40\u0E2D\u0E32\u0E21\u0E31\u0E4A\u0E22?"
+  text: "\u0E40\u0E1B\u0E25\u0E48\u0E32\u0E04\u0E23\u0E31\u0E1A \u0E1C\u0E21\u0E44\u0E21\u0E48\u0E2D\u0E22\u0E32\u0E01\u0E21\u0E35\u0E1B\u0E31\u0E0D\u0E2B\u0E32"
   children:
   - 17eec4c0-7b64-4c6a-bd8d-79f74d642e22
   rect:
@@ -218,13 +217,13 @@ MonoBehaviour:
   m_Name: 15c3b274-7620-4ac0-8258-56c6785a97eb
   m_EditorClassIdentifier: 
   isPlayerSpeaking: 1
-  text: "\u0E44\u0E1B\u0E0B\u0E37\u0E49\u0E2D\u0E2A\u0E34"
+  text: "\u0E44\u0E21\u0E48\u0E40\u0E04\u0E22\u0E01\u0E25\u0E31\u0E27\u0E2B\u0E23\u0E2D\u0E01"
   children:
   - c9e36f67-160f-4429-8b2a-9ce82bcc29ba
   rect:
     serializedVersion: 2
     x: 802
-    y: 135
+    y: 131
     width: 200
     height: 100
   onEnterAction: 

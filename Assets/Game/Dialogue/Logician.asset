@@ -1,0 +1,133 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-6356050886525826202
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb617ab88ccf14af28f17d2989c8b2f2, type: 3}
+  m_Name: 81b6e1a6-c3b1-4a1c-a79a-e6f4584654cc
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: 'Find a sword '
+  children:
+  - 081322d2-0cee-46bd-b994-2538a9785379
+  rect:
+    serializedVersion: 2
+    x: 251
+    y: 134
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Find a sword
+        negate: 0
+    - or:
+      - predicate: CompletedQuest
+        parameters:
+        - Find a sword
+        negate: 1
+--- !u!114 &-4338751606457529422
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb617ab88ccf14af28f17d2989c8b2f2, type: 3}
+  m_Name: 48c6080c-1959-4315-b1f1-a5dcf5924163
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "\u0E19\u0E31\u0E01\u0E1B\u0E23\u0E32\u0E0A\u0E13\u0E4C"
+  children:
+  - 8c20f587-b045-4ea3-8cd9-09aa9e3dd87c
+  - 81b6e1a6-c3b1-4a1c-a79a-e6f4584654cc
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: talk
+  condition:
+    and: []
+--- !u!114 &-663367384882635155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb617ab88ccf14af28f17d2989c8b2f2, type: 3}
+  m_Name: 081322d2-0cee-46bd-b994-2538a9785379
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: sdf
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 501
+    y: 134
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a13bc85e6f454a6aa048147ebc9e63d, type: 3}
+  m_Name: Logician
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -4338751606457529422}
+  - {fileID: 5136161212186545084}
+  - {fileID: -6356050886525826202}
+  - {fileID: -663367384882635155}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &5136161212186545084
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb617ab88ccf14af28f17d2989c8b2f2, type: 3}
+  m_Name: 8c20f587-b045-4ea3-8cd9-09aa9e3dd87c
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: "\u0E40\u0E08\u0E49\u0E32\u0E2D\u0E22\u0E32\u0E01\u0E23\u0E39\u0E49\u0E2D\u0E30\u0E44\u0E23\u0E25\u0E48\u0E30"
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 250
+    y: 0
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []

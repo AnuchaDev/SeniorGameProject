@@ -70,8 +70,8 @@ MonoBehaviour:
   children: []
   rect:
     serializedVersion: 2
-    x: 237
-    y: 298
+    x: 234
+    y: 301
     width: 200
     height: 100
   onEnterAction: 
@@ -215,7 +215,7 @@ MonoBehaviour:
   rect:
     serializedVersion: 2
     x: 250
-    y: 33
+    y: 32
     width: 200
     height: 100
   onEnterAction: 

@@ -166,7 +166,7 @@ MonoBehaviour:
     width: 200
     height: 100
   onEnterAction: 
-  onExitAction: GiveQuest
+  onExitAction: 
   condition:
     and: []
 --- !u!114 &7126955011280953455
