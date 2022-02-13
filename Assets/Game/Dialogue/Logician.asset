@@ -1,5 +1,31 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-7045008567056309546
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb617ab88ccf14af28f17d2989c8b2f2, type: 3}
+  m_Name: 33f39388-640b-4dd0-9a67-fe6b75339bcf
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: "\u0E09\u0E31\u0E19\u0E08\u0E33\u0E44\u0E21\u0E48\u0E44\u0E14\u0E49 \u0E2D\u0E35\u0E01\u0E23\u0E2D\u0E1A\u0E44\u0E14\u0E49\u0E44\u0E2B\u0E21?"
+  children:
+  - 081322d2-0cee-46bd-b994-2538a9785379
+  rect:
+    serializedVersion: 2
+    x: 1006
+    y: 271
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
 --- !u!114 &-6356050886525826202
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13,13 +39,13 @@ MonoBehaviour:
   m_Name: 81b6e1a6-c3b1-4a1c-a79a-e6f4584654cc
   m_EditorClassIdentifier: 
   isPlayerSpeaking: 1
-  text: 'Find a sword '
+  text: "\u0E20\u0E32\u0E23\u0E01\u0E34\u0E08 Find a sword "
   children:
   - 081322d2-0cee-46bd-b994-2538a9785379
   rect:
     serializedVersion: 2
-    x: 251
-    y: 134
+    x: 260
+    y: 159
     width: 200
     height: 100
   onEnterAction: 
@@ -60,7 +86,7 @@ MonoBehaviour:
     width: 200
     height: 100
   onEnterAction: 
-  onExitAction: talk
+  onExitAction: 
   condition:
     and: []
 --- !u!114 &-663367384882635155
@@ -76,12 +102,41 @@ MonoBehaviour:
   m_Name: 081322d2-0cee-46bd-b994-2538a9785379
   m_EditorClassIdentifier: 
   isPlayerSpeaking: 0
-  text: sdf
-  children: []
+  text: " Legendary sword \u0E41\u0E1B\u0E25\u0E27\u0E48\u0E32 \u0E14\u0E32\u0E1A\u0E43\u0E19\u0E15\u0E33\u0E19\u0E32\u0E19"
+  children:
+  - b6d8d8b8-59fd-412b-96f9-d6d57303b60d
   rect:
     serializedVersion: 2
-    x: 501
-    y: 134
+    x: 498
+    y: 159
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-624201981847589483
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb617ab88ccf14af28f17d2989c8b2f2, type: 3}
+  m_Name: b6d8d8b8-59fd-412b-96f9-d6d57303b60d
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "The legendary sword must have a blue glow \u0E41\u0E1B\u0E25\u0E27\u0E48\u0E32
+    \u0E14\u0E32\u0E1A\u0E43\u0E19\u0E15\u0E15\u0E33\u0E19\u0E32\u0E19\u0E15\u0E49\u0E2D\u0E07\u0E21\u0E35\u0E41\u0E2A\u0E07\u0E2A\u0E35\u0E1F\u0E49\u0E32"
+  children:
+  - f3d07997-69be-4123-8497-e91b6b609662
+  - 33f39388-640b-4dd0-9a67-fe6b75339bcf
+  rect:
+    serializedVersion: 2
+    x: 747
+    y: 159
     width: 200
     height: 100
   onEnterAction: 
@@ -105,7 +160,62 @@ MonoBehaviour:
   - {fileID: 5136161212186545084}
   - {fileID: -6356050886525826202}
   - {fileID: -663367384882635155}
+  - {fileID: -624201981847589483}
+  - {fileID: 2467640311200463484}
+  - {fileID: -7045008567056309546}
+  - {fileID: 4474176756494015888}
   newNodeOffset: {x: 250, y: 0}
+--- !u!114 &2467640311200463484
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb617ab88ccf14af28f17d2989c8b2f2, type: 3}
+  m_Name: f3d07997-69be-4123-8497-e91b6b609662
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: "\u0E09\u0E31\u0E19\u0E40\u0E02\u0E49\u0E32\u0E43\u0E08\u0E41\u0E25\u0E49\u0E27"
+  children:
+  - b2900c79-e52f-4f06-a112-22dbe2b41885
+  rect:
+    serializedVersion: 2
+    x: 1005
+    y: 160
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &4474176756494015888
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb617ab88ccf14af28f17d2989c8b2f2, type: 3}
+  m_Name: b2900c79-e52f-4f06-a112-22dbe2b41885
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "\u0E40\u0E08\u0E49\u0E32\u0E40\u0E01\u0E48\u0E07\u0E21\u0E32\u0E01"
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1255
+    y: 160
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: FindASword
+  condition:
+    and: []
 --- !u!114 &5136161212186545084
 MonoBehaviour:
   m_ObjectHideFlags: 0

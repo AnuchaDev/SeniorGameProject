@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2591c982fc81e940845bedeabeb30af, type: 3}
+  m_Name: Shield
+  m_EditorClassIdentifier: 
+  itemID: 73f14249-119d-47fd-908e-d30c6091d5b3
+  displayName: "\u0E42\u0E25\u0E48\u0E41\u0E21\u0E48\u0E19\u0E2B\u0E31\u0E27 (\u0E2D\u0E32\u0E27\u0E38\u0E18)"
+  description: "\u0E42\u0E25\u0E48\u0E01\u0E31\u0E19\u0E2B\u0E31\u0E27\u0E44\u0E21\u0E48\u0E43\u0E2B\u0E49\u0E42\u0E14\u0E19\u0E22\u0E34\u0E07\u0E44\u0E14\u0E49"
+  icon: {fileID: 21300000, guid: 278ca143b6b5b0d488dbf8faf69578a1, type: 3}
+  pickup: {fileID: 0}
+  stackable: 0
+  price: 3333
+  category: 2
+  allowedEquipLocation: 5
+  equipCondition:
+    and: []
+  animatorOverride: {fileID: 22100000, guid: e7971e1d36852774c9df77a03fc60b8d, type: 2}
+  equippedPrefab: {fileID: 7908293993723241329, guid: 24e6793c4a3f74d468fc1bc960aa3eeb, type: 3}
+  weaponDamage: 35
+  percentageBonus: 20
+  weaponRange: 1
+  isRightHanded: 0
+  projectile: {fileID: 0}

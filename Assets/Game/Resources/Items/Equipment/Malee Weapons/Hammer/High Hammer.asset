@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2591c982fc81e940845bedeabeb30af, type: 3}
+  m_Name: High Hammer
+  m_EditorClassIdentifier: 
+  itemID: 937f4d25-2d6b-42f0-a1b8-487e9df24c5b
+  displayName: "\u0E04\u0E49\u0E2D\u0E19\u0E40\u0E25\u0E40\u0E27\u0E25 3"
+  description: 
+  icon: {fileID: 21300000, guid: 4deed833de32fb24fb8f6acd8877b54f, type: 3}
+  pickup: {fileID: 0}
+  stackable: 0
+  price: 1200
+  category: 0
+  allowedEquipLocation: 5
+  equipCondition:
+    and: []
+  animatorOverride: {fileID: 22100000, guid: 13d38c4276ece49468859b43e0615529, type: 2}
+  equippedPrefab: {fileID: 7908293993723241329, guid: 14c906ca2f311a64fab7d23a5c8abd74, type: 3}
+  weaponDamage: 27
+  percentageBonus: 15
+  weaponRange: 2
+  isRightHanded: 1
+  projectile: {fileID: 0}

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0f5845de57164c4ab8a088ea3dbc811, type: 3}
+  m_Name: Necklace 7
+  m_EditorClassIdentifier: 
+  itemID: ecbf9259-b56c-4098-8c42-54f87f3c5f1b
+  displayName: "\u0E2A\u0E23\u0E49\u0E2D\u0E22\u0E41\u0E2A\u0E07\u0E40\u0E02\u0E35\u0E22\u0E27\u0E44\u0E21\u0E49"
+  description: "\u0E40\u0E1E\u0E34\u0E48\u0E21\u0E1E\u0E25\u0E31\u0E07\u0E42\u0E08\u0E21\u0E15\u0E35
+    +8 \u0E41\u0E25\u0E30\u0E40\u0E1E\u0E34\u0E48\u0E21\u0E1E\u0E25\u0E31\u0E07\u0E0A\u0E35\u0E27\u0E34\u0E15
+    +70"
+  icon: {fileID: 21300000, guid: 32ad7257e4e54af44966cc3ba7efa5ba, type: 3}
+  pickup: {fileID: 4055827363373812260, guid: eb7b33b00a5a549e5b6b34eb78ebc0ff, type: 3}
+  stackable: 1
+  price: 200
+  category: 1
+  allowedEquipLocation: 1
+  equipCondition:
+    and: []
+  additiveModifiers:
+  - stat: 0
+    value: 70
+  - stat: 8
+    value: 8
+  percentageModifiers: []

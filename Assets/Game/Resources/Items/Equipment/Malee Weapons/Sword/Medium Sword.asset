@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2591c982fc81e940845bedeabeb30af, type: 3}
+  m_Name: Medium Sword
+  m_EditorClassIdentifier: 
+  itemID: d64eecce-605b-41db-9c29-a0fafe7dd4bf
+  displayName: "\u0E14\u0E32\u0E1A\u0E40\u0E25\u0E40\u0E27\u0E25 2"
+  description: 
+  icon: {fileID: 21300000, guid: 13c76b9a8bfc72640a6bfcbcbc5b7dfc, type: 3}
+  pickup: {fileID: 0}
+  stackable: 0
+  price: 400
+  category: 0
+  allowedEquipLocation: 5
+  equipCondition:
+    and: []
+  animatorOverride: {fileID: 22100000, guid: 8a4058610ee373a42812bb333cc73934, type: 2}
+  equippedPrefab: {fileID: 7908293993723241329, guid: 88f547f3de1ccf8449f07dc6ad2362fe, type: 3}
+  weaponDamage: 13
+  percentageBonus: 10
+  weaponRange: 2
+  isRightHanded: 1
+  projectile: {fileID: 0}

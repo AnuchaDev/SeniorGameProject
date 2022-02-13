@@ -23,11 +23,11 @@ MonoBehaviour:
           parameters:
           - 6caac22d-a3ed-4170-872d-8234aae5fbb7
           negate: 0
-  - reference: talk
+  - reference: FindASword
     description: "\u0E04\u0E38\u0E22\u0E01\u0E31\u0E1A\u0E19\u0E31\u0E01\u0E1B\u0E23\u0E32\u0E0A\u0E13\u0E4C"
     usesCondition: 0
     completionCondition:
       and: []
   rewards:
-  - number: 11
+  - number: 1000
     item: {fileID: 11400000, guid: 47558c1d383dc461090f850962e8bd13, type: 2}

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0f5845de57164c4ab8a088ea3dbc811, type: 3}
+  m_Name: Body 5
+  m_EditorClassIdentifier: 
+  itemID: 747a4698-7030-4f61-bf22-990592112de1
+  displayName: "\u0E0A\u0E38\u0E14\u0E40\u0E01\u0E23\u0E32\u0E30\u0E40\u0E1A\u0E2D\u0E23\u0E4C\u0E17\u0E39"
+  description: "\u0E1E\u0E25\u0E31\u0E07\u0E1B\u0E49\u0E2D\u0E07\u0E01\u0E31\u0E19
+    +25 \u0E41\u0E25\u0E30 \u0E40\u0E1E\u0E34\u0E48\u0E21\u0E1E\u0E25\u0E31\u0E07\u0E0A\u0E35\u0E27\u0E34\u0E15
+    +100"
+  icon: {fileID: 21300000, guid: 2ba1366d91f131942a124bd36c5afb16, type: 3}
+  pickup: {fileID: 4055827363373812260, guid: eb7b33b00a5a549e5b6b34eb78ebc0ff, type: 3}
+  stackable: 1
+  price: 300
+  category: 1
+  allowedEquipLocation: 2
+  equipCondition:
+    and: []
+  additiveModifiers:
+  - stat: 0
+    value: 100
+  - stat: 3
+    value: 25
+  percentageModifiers: []

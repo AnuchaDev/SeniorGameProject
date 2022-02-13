@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0f5845de57164c4ab8a088ea3dbc811, type: 3}
+  m_Name: Gloves 2
+  m_EditorClassIdentifier: 
+  itemID: a8e03d79-f626-47df-a980-360111489c90
+  displayName: "\u0E1B\u0E25\u0E2D\u0E01\u0E41\u0E02\u0E19\u0E41\u0E2B\u0E48\u0E07\u0E2A\u0E32\u0E22\u0E25\u0E21"
+  description: "\u0E40\u0E1E\u0E34\u0E48\u0E21\u0E1E\u0E25\u0E31\u0E07\u0E42\u0E08\u0E21\u0E15\u0E35
+    +5"
+  icon: {fileID: 21300000, guid: ad863f72b0e65f743896eb7539ee3c30, type: 3}
+  pickup: {fileID: 4055827363373812260, guid: eb7b33b00a5a549e5b6b34eb78ebc0ff, type: 3}
+  stackable: 1
+  price: 30
+  category: 1
+  allowedEquipLocation: 7
+  equipCondition:
+    and: []
+  additiveModifiers:
+  - stat: 8
+    value: 5
+  percentageModifiers: []

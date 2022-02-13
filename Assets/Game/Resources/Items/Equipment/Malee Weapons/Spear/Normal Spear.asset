@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2591c982fc81e940845bedeabeb30af, type: 3}
+  m_Name: Normal Spear
+  m_EditorClassIdentifier: 
+  itemID: 8fa70a77-5749-4b1e-90ce-1efdf7328288
+  displayName: "\u0E2B\u0E2D\u0E01\u0E40\u0E25\u0E40\u0E27\u0E25 1 "
+  description: 
+  icon: {fileID: 21300000, guid: 5e389b5ae3f33504daff9d4c12226cbf, type: 3}
+  pickup: {fileID: 2490817164378477547, guid: 8e06fc205e9a14144a6f6273e41de1e3, type: 3}
+  stackable: 0
+  price: 160
+  category: 2
+  allowedEquipLocation: 5
+  equipCondition:
+    and:
+    - or:
+      - predicate: MinimumTrait
+        parameters:
+        - Strength
+        - 0
+        negate: 0
+  animatorOverride: {fileID: 22100000, guid: d8146c1971cb0a24a86357629570b256, type: 2}
+  equippedPrefab: {fileID: 7908293993723241329, guid: 346d4a0845474164caac30392d8c0661, type: 3}
+  weaponDamage: 6
+  percentageBonus: 5
+  weaponRange: 3
+  isRightHanded: 1
+  projectile: {fileID: 0}

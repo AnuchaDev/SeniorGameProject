@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2591c982fc81e940845bedeabeb30af, type: 3}
+  m_Name: Normal Hammer
+  m_EditorClassIdentifier: 
+  itemID: 59df275b-bd06-46bb-9801-f1e98588c853
+  displayName: "\u0E04\u0E49\u0E2D\u0E19\u0E40\u0E25\u0E40\u0E27\u0E25 1 "
+  description: 
+  icon: {fileID: 21300000, guid: 60cb9a46b50083d48a554544b654ffdb, type: 3}
+  pickup: {fileID: 0}
+  stackable: 0
+  price: 120
+  category: 2
+  allowedEquipLocation: 5
+  equipCondition:
+    and: []
+  animatorOverride: {fileID: 22100000, guid: 7e19b6460da5dd6428d05f583d65fcdf, type: 2}
+  equippedPrefab: {fileID: 7908293993723241329, guid: 83e2a4e6568f7f44bba4d2177bcff8dc, type: 3}
+  weaponDamage: 9
+  percentageBonus: 5
+  weaponRange: 2
+  isRightHanded: 1
+  projectile: {fileID: 0}

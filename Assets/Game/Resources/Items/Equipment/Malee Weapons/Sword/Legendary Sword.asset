@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f2591c982fc81e940845bedeabeb30af, type: 3}
+  m_Name: Legendary Sword
+  m_EditorClassIdentifier: 
+  itemID: 6caac22d-a3ed-4170-872d-8234aae5fbb7
+  displayName: "\u0E14\u0E32\u0E1A\u0E43\u0E19\u0E15\u0E33\u0E19\u0E32\u0E19"
+  description: 
+  icon: {fileID: 21300000, guid: cc41b200600287e4a81b3b715e967df1, type: 3}
+  pickup: {fileID: 2490817164378477547, guid: c9ba603ea8cbc144fafa7c35e9e3800c, type: 3}
+  stackable: 0
+  price: 2
+  category: 0
+  allowedEquipLocation: 5
+  equipCondition:
+    and: []
+  animatorOverride: {fileID: 22100000, guid: 598da4f202e83b34cadc27c1e8691d59, type: 2}
+  equippedPrefab: {fileID: 7908293993723241329, guid: be4baddded72e8c488dad87724e0fae5, type: 3}
+  weaponDamage: 6
+  percentageBonus: 5
+  weaponRange: 2
+  isRightHanded: 1
+  projectile: {fileID: 0}
