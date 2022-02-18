@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0f5845de57164c4ab8a088ea3dbc811, type: 3}
+  m_Name: Purpleflower
+  m_EditorClassIdentifier: 
+  itemID: 0679c46a-8646-42c9-a907-b6de2407d6f4
+  displayName: "\u0E14\u0E2D\u0E01\u0E44\u0E21\u0E49\u0E2A\u0E35\u0E21\u0E48\u0E27\u0E07"
+  description: 
+  icon: {fileID: 21300036, guid: 8a6abc2d357c9ec49a20e27b8907de9a, type: 3}
+  pickup: {fileID: 2490817164378477547, guid: dea92933b6c11994d886552c0d203997, type: 3}
+  stackable: 1
+  price: 0
+  category: 4
+  allowedEquipLocation: 8
+  equipCondition:
+    and: []
+  additiveModifiers: []
+  percentageModifiers: []

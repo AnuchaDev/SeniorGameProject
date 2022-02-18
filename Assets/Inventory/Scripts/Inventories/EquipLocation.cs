@@ -12,5 +12,6 @@ namespace GameDev.Inventories
         Weapon,
         Shield,
         Gloves,
+        None,
     }
 }

@@ -249,6 +249,10 @@ PrefabInstance:
       propertyPath: startingBalance
       value: 200
       objectReference: {fileID: 0}
+    - target: {fileID: 4418362954710017705, guid: 00254deafec00df47a5cb22b82fa7df2, type: 3}
+      propertyPath: inventorySize
+      value: 24
+      objectReference: {fileID: 0}
     - target: {fileID: 4902660786131331472, guid: 00254deafec00df47a5cb22b82fa7df2, type: 3}
       propertyPath: m_Name
       value: Player
@@ -937,11 +941,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1693024143934773398, guid: 07dc30b6f1bbb4147acd5fd5555a18f5, type: 3}
       propertyPath: m_Size
-      value: 0.94257593
+      value: 0.942578
       objectReference: {fileID: 0}
     - target: {fileID: 1693024143934773398, guid: 07dc30b6f1bbb4147acd5fd5555a18f5, type: 3}
       propertyPath: m_Value
-      value: -0.0000032969679
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1695213931988521982, guid: 07dc30b6f1bbb4147acd5fd5555a18f5, type: 3}
       propertyPath: m_AnchorMax.y
@@ -1397,7 +1401,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2837839400211619849, guid: 07dc30b6f1bbb4147acd5fd5555a18f5, type: 3}
       propertyPath: m_Value
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2838564185233448112, guid: 07dc30b6f1bbb4147acd5fd5555a18f5, type: 3}
       propertyPath: m_AnchorMax.y
@@ -3457,11 +3461,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9063335527819168082, guid: 07dc30b6f1bbb4147acd5fd5555a18f5, type: 3}
       propertyPath: m_Size
-      value: 0.7041331
+      value: 0.70413315
       objectReference: {fileID: 0}
     - target: {fileID: 9063335527819168082, guid: 07dc30b6f1bbb4147acd5fd5555a18f5, type: 3}
       propertyPath: m_Value
-      value: 0.99999976
+      value: 1.0000002
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 07dc30b6f1bbb4147acd5fd5555a18f5, type: 3}
@@ -3512,7 +3516,7 @@ PrefabInstance:
       objectReference: {fileID: 8052588912256207485}
     - target: {fileID: 7687349905529175936, guid: 0751578d2707bb94ebd1a943a302f77a, type: 3}
       propertyPath: m_Lens.m_SensorSize.x
-      value: 1.8618042
+      value: 1.8843416
       objectReference: {fileID: 0}
     - target: {fileID: 7687349905529175937, guid: 0751578d2707bb94ebd1a943a302f77a, type: 3}
       propertyPath: m_RootOrder

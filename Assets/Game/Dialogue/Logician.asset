@@ -75,7 +75,7 @@ MonoBehaviour:
   m_Name: 48c6080c-1959-4315-b1f1-a5dcf5924163
   m_EditorClassIdentifier: 
   isPlayerSpeaking: 0
-  text: "\u0E19\u0E31\u0E01\u0E1B\u0E23\u0E32\u0E0A\u0E13\u0E4C"
+  text: "\u0E19\u0E31\u0E01\u0E1B\u0E23\u0E32\u0E0A\u0E0D\u0E4C"
   children:
   - 8c20f587-b045-4ea3-8cd9-09aa9e3dd87c
   - 81b6e1a6-c3b1-4a1c-a79a-e6f4584654cc

@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c8686f1889244cd0968978a8aaf22f0, type: 3}
+  m_Name: Find ingredients
+  m_EditorClassIdentifier: 
+  objectives:
+  - reference: Get Seaweed
+    description: "\u0E15\u0E32\u0E21\u0E2B\u0E32 Seaweed"
+    usesCondition: 1
+    completionCondition:
+      and:
+      - or:
+        - predicate: HasInventoryItem
+          parameters:
+          - 29c2c3b0-2389-4cfa-b952-e2443c060175
+          negate: 0
+  - reference: Get Sunflower
+    description: "\u0E15\u0E32\u0E21\u0E2B\u0E32 Sunflower"
+    usesCondition: 1
+    completionCondition:
+      and:
+      - or:
+        - predicate: HasInventoryItem
+          parameters:
+          - 439601ec-15a7-4b02-a788-e5aecf7f1637
+          negate: 0
+  - reference: Get Purpleflower
+    description: "\u0E15\u0E32\u0E21\u0E2B\u0E32 Purpleflower"
+    usesCondition: 1
+    completionCondition:
+      and:
+      - or:
+        - predicate: HasInventoryItem
+          parameters:
+          - 0679c46a-8646-42c9-a907-b6de2407d6f4
+          negate: 0
+  - reference: Completed ingredients
+    description: "\u0E19\u0E33\u0E2A\u0E48\u0E27\u0E19\u0E1B\u0E23\u0E30\u0E01\u0E2D\u0E1A\u0E01\u0E25\u0E31\u0E1A\u0E44\u0E1B\u0E43\u0E2B\u0E49\u0E2B\u0E21\u0E2D\u0E22\u0E32"
+    usesCondition: 0
+    completionCondition:
+      and:
+      - or:
+        - predicate: HasInventoryItem
+          parameters:
+          - 0679c46a-8646-42c9-a907-b6de2407d6f4
+          negate: 0
+  rewards:
+  - number: 1000
+    item: {fileID: 11400000, guid: 47558c1d383dc461090f850962e8bd13, type: 2}

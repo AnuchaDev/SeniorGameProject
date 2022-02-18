@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f0f5845de57164c4ab8a088ea3dbc811, type: 3}
+  m_Name: Seaweed
+  m_EditorClassIdentifier: 
+  itemID: 29c2c3b0-2389-4cfa-b952-e2443c060175
+  displayName: "\u0E2A\u0E32\u0E2B\u0E23\u0E48\u0E32\u0E22"
+  description: 
+  icon: {fileID: 21300036, guid: 8a6abc2d357c9ec49a20e27b8907de9a, type: 3}
+  pickup: {fileID: 2490817164378477547, guid: f79978a95a39ccf4d9004116d5cb7045, type: 3}
+  stackable: 1
+  price: 0
+  category: 4
+  allowedEquipLocation: 8
+  equipCondition:
+    and: []
+  additiveModifiers: []
+  percentageModifiers: []

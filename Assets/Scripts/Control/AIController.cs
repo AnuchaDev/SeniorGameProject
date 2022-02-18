@@ -160,7 +160,7 @@ namespace RPG.Control
         private bool IsAggrevated()
         {
             float distanceToPlayer = Vector3.Distance(player.transform.position, transform.position);
-            return distanceToPlayer < chaseDistance; 
+            return distanceToPlayer < chaseDistance || timeSinceAggrevated < agroCooldownTime; 
         }
 
         // Called by Unity
