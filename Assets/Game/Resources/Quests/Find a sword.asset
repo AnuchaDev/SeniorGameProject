@@ -28,16 +28,8 @@ MonoBehaviour:
     usesCondition: 0
     completionCondition:
       and: []
-  - reference: Get seaweed
-    description: "\u0E15\u0E32\u0E21\u0E2B\u0E32 Seaweed"
-    usesCondition: 1
-    completionCondition:
-      and:
-      - or:
-        - predicate: HasInventoryItem
-          parameters:
-          - 29c2c3b0-2389-4cfa-b952-e2443c060175
-          negate: 0
   rewards:
-  - number: 1000
+  - number: 100
     item: {fileID: 11400000, guid: 47558c1d383dc461090f850962e8bd13, type: 2}
+  - number: 1
+    item: {fileID: 11400000, guid: 95d8c9144afdde14b8b4c3bfc9373777, type: 2}

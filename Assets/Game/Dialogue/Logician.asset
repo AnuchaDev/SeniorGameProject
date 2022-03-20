@@ -1,5 +1,58 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8251847670216121634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb617ab88ccf14af28f17d2989c8b2f2, type: 3}
+  m_Name: d037ba5c-053e-419e-8480-18835f516806
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: "\u0E09\u0E31\u0E19\u0E02\u0E2D\u0E2D\u0E48\u0E32\u0E19\u0E2D\u0E35\u0E01\u0E23\u0E2D\u0E1A"
+  children:
+  - a510355c-ece2-4cd7-842a-5b71862f218f
+  rect:
+    serializedVersion: 2
+    x: 2257
+    y: 956
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-7301178455746781690
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb617ab88ccf14af28f17d2989c8b2f2, type: 3}
+  m_Name: 9fad4e53-4e00-443d-b794-a15237cd9961
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "Golem is a figure made of clay that comes to life. \u0E41\u0E1B\u0E25\u0E27\u0E48\u0E32
+    \u0E2B\u0E38\u0E48\u0E19\u0E1B\u0E31\u0E49\u0E19\u0E08\u0E32\u0E01\u0E14\u0E34\u0E19\u0E40\u0E2B\u0E19\u0E35\u0E22\u0E27\u0E17\u0E35\u0E48\u0E21\u0E35\u0E0A\u0E35\u0E27\u0E34\u0E15\u0E0A\u0E35\u0E27\u0E32"
+  children:
+  - eea62238-9abb-47ab-86a1-7a4f03c6b74f
+  rect:
+    serializedVersion: 2
+    x: 515
+    y: 765
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
 --- !u!114 &-7045008567056309546
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18,8 +71,33 @@ MonoBehaviour:
   - 081322d2-0cee-46bd-b994-2538a9785379
   rect:
     serializedVersion: 2
-    x: 1006
-    y: 271
+    x: 1011
+    y: 344
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-6874405548338228681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb617ab88ccf14af28f17d2989c8b2f2, type: 3}
+  m_Name: 78ddf1fd-e387-4a97-bba7-a968d86c2314
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "\u0E40\u0E08\u0E49\u0E32\u0E40\u0E01\u0E48\u0E07\u0E21\u0E32\u0E01"
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1507
+    y: 610
     width: 200
     height: 100
   onEnterAction: 
@@ -44,8 +122,8 @@ MonoBehaviour:
   - 081322d2-0cee-46bd-b994-2538a9785379
   rect:
     serializedVersion: 2
-    x: 260
-    y: 159
+    x: 246
+    y: 155
     width: 200
     height: 100
   onEnterAction: 
@@ -62,6 +140,145 @@ MonoBehaviour:
         parameters:
         - Find a sword
         negate: 1
+--- !u!114 &-6141424564567074788
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb617ab88ccf14af28f17d2989c8b2f2, type: 3}
+  m_Name: 5eb240f2-8677-415e-aa61-311677daa76f
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: "\u0E1B\u0E23\u0E30\u0E42\u0E22\u0E04\u0E22\u0E32\u0E27\u0E40\u0E01\u0E34\u0E19\u0E44\u0E1B
+    \u0E09\u0E31\u0E19\u0E08\u0E33\u0E44\u0E21\u0E48\u0E44\u0E14\u0E49"
+  children:
+  - a510355c-ece2-4cd7-842a-5b71862f218f
+  rect:
+    serializedVersion: 2
+    x: 1250
+    y: 847
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-6035380970764667756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb617ab88ccf14af28f17d2989c8b2f2, type: 3}
+  m_Name: 2d5aed9c-43a4-4468-865b-c5993fcad149
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "Fabric is  material made by weaving wool, cotton, silk, etc., used for making
+    clothes, curtains, etc. and for covering furniture. \u0E41\u0E1B\u0E25\u0E27\u0E48\u0E32
+    \u0E1C\u0E49\u0E32\u0E40\u0E1B\u0E47\u0E19\u0E27\u0E31\u0E2A\u0E14\u0E38\u0E17\u0E35\u0E48\u0E17\u0E33\u0E08\u0E32\u0E01\u0E01\u0E32\u0E23\u0E17\u0E2D\u0E1C\u0E49\u0E32\u0E02\u0E19\u0E2A\u0E31\u0E15\u0E27\u0E4C
+    \u0E1C\u0E49\u0E32\u0E1D\u0E49\u0E32\u0E22 \u0E1C\u0E49\u0E32\u0E44\u0E2B\u0E21
+    \u0E2F\u0E25\u0E2F \u0E43\u0E0A\u0E49\u0E2A\u0E33\u0E2B\u0E23\u0E31\u0E1A\u0E17\u0E33\u0E40\u0E2A\u0E37\u0E49\u0E2D\u0E1C\u0E49\u0E32
+    \u0E1C\u0E49\u0E32\u0E21\u0E48\u0E32\u0E19 \u0E2F\u0E25\u0E2F \u0E41\u0E25\u0E30\u0E2A\u0E33\u0E2B\u0E23\u0E31\u0E1A\u0E04\u0E25\u0E38\u0E21\u0E40\u0E1F\u0E2D\u0E23\u0E4C\u0E19\u0E34\u0E40\u0E08\u0E2D\u0E23\u0E4C "
+  children:
+  - 1c556c2a-22ce-4058-90a3-718cc7a5e0a3
+  - 5755fa4c-67f2-4f59-9075-40e0313e400c
+  - 5eb240f2-8677-415e-aa61-311677daa76f
+  rect:
+    serializedVersion: 2
+    x: 1007
+    y: 610
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-5061957532206815741
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb617ab88ccf14af28f17d2989c8b2f2, type: 3}
+  m_Name: 5755fa4c-67f2-4f59-9075-40e0313e400c
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: "\u0E09\u0E31\u0E19\u0E08\u0E33\u0E44\u0E21\u0E48\u0E44\u0E14\u0E49 \u0E2D\u0E35\u0E01\u0E23\u0E2D\u0E1A\u0E44\u0E14\u0E49\u0E44\u0E2B\u0E21?"
+  children:
+  - 5245edc9-2b28-413f-998e-f920489f1c01
+  rect:
+    serializedVersion: 2
+    x: 1252
+    y: 726
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-4692888418586547346
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb617ab88ccf14af28f17d2989c8b2f2, type: 3}
+  m_Name: 5245edc9-2b28-413f-998e-f920489f1c01
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "Bomb is a weapon designed to explode at a particular time or when it is
+    dropped or thrown. \u0E41\u0E1B\u0E25\u0E27\u0E48\u0E32 \u0E23\u0E30\u0E40\u0E1A\u0E34\u0E14\u0E40\u0E1B\u0E47\u0E19\u0E2D\u0E32\u0E27\u0E38\u0E18\u0E17\u0E35\u0E48\u0E2D\u0E2D\u0E01\u0E41\u0E1A\u0E1A\u0E21\u0E32\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E23\u0E30\u0E40\u0E1A\u0E34\u0E14\u0E43\u0E19\u0E40\u0E27\u0E25\u0E32\u0E43\u0E14\u0E40\u0E27\u0E25\u0E32\u0E2B\u0E19\u0E36\u0E48\u0E07\u0E2B\u0E23\u0E37\u0E2D\u0E40\u0E21\u0E37\u0E48\u0E2D\u0E16\u0E39\u0E01\u0E17\u0E34\u0E49\u0E07\u0E2B\u0E23\u0E37\u0E2D\u0E02\u0E27\u0E49\u0E32\u0E07"
+  children:
+  - f41519ca-d888-4193-a0ec-689b97802f1f
+  rect:
+    serializedVersion: 2
+    x: 498
+    y: 609
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-4459383161183955949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb617ab88ccf14af28f17d2989c8b2f2, type: 3}
+  m_Name: 0a86ca9b-4da9-4f0e-9eec-dc36732cc6ec
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: "\u0E09\u0E31\u0E19\u0E40\u0E02\u0E49\u0E32\u0E43\u0E08\u0E41\u0E25\u0E49\u0E27"
+  children:
+  - a7210f70-0165-4d23-99ba-192df632717e
+  rect:
+    serializedVersion: 2
+    x: 955
+    y: 781
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
 --- !u!114 &-4338751606457529422
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -75,14 +292,121 @@ MonoBehaviour:
   m_Name: 48c6080c-1959-4315-b1f1-a5dcf5924163
   m_EditorClassIdentifier: 
   isPlayerSpeaking: 0
-  text: "\u0E19\u0E31\u0E01\u0E1B\u0E23\u0E32\u0E0A\u0E0D\u0E4C"
+  text: "\u0E2A\u0E27\u0E31\u0E2A\u0E14\u0E35\u0E1C\u0E39\u0E49\u0E43\u0E1D\u0E48\u0E23\u0E39\u0E49"
   children:
-  - 8c20f587-b045-4ea3-8cd9-09aa9e3dd87c
   - 81b6e1a6-c3b1-4a1c-a79a-e6f4584654cc
+  - 2796002a-5fca-450f-aef0-3a87067dfc15
+  - 8bfcc564-e667-44c0-9fd3-c59a3aad0a0c
+  - 224a5a28-caf2-4ee1-ae94-63b32adfa970
+  - 8bc5eaef-f06b-487f-89b3-39cf38d43803
   rect:
     serializedVersion: 2
     x: 0
     y: 0
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-4292552212320862594
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb617ab88ccf14af28f17d2989c8b2f2, type: 3}
+  m_Name: 224a5a28-caf2-4ee1-ae94-63b32adfa970
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "\u0E40\u0E08\u0E49\u0E32\u0E15\u0E49\u0E2D\u0E07\u0E23\u0E31\u0E1A\u0E20\u0E32\u0E23\u0E01\u0E34\u0E08\u0E01\u0E48\u0E2D\u0E19
+    \u0E02\u0E49\u0E32\u0E08\u0E30\u0E44\u0E14\u0E49\u0E2A\u0E2D\u0E19\u0E15\u0E23\u0E07\u0E40\u0E23\u0E37\u0E48\u0E2D\u0E07\u0E17\u0E35\u0E48\u0E40\u0E08\u0E49\u0E32\u0E15\u0E49\u0E2D\u0E07\u0E01\u0E32\u0E23"
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 250
+    y: 0
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-3009653412934292207
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb617ab88ccf14af28f17d2989c8b2f2, type: 3}
+  m_Name: 82806780-251d-4409-8e58-95e57cf053aa
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "\u0E40\u0E08\u0E49\u0E32\u0E40\u0E01\u0E48\u0E07\u0E21\u0E32\u0E01"
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1528
+    y: 463
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-1767017791463020330
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb617ab88ccf14af28f17d2989c8b2f2, type: 3}
+  m_Name: f41519ca-d888-4193-a0ec-689b97802f1f
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "Book is a set of printed pages that are fastened inside a cover so that
+    you can turn them and read them. \u0E41\u0E1B\u0E25\u0E27\u0E48\u0E32 \u0E2B\u0E19\u0E31\u0E07\u0E2A\u0E37\u0E2D\u0E04\u0E37\u0E2D\u0E0A\u0E38\u0E14\u0E02\u0E2D\u0E07\u0E2B\u0E19\u0E49\u0E32\u0E17\u0E35\u0E48\u0E1E\u0E34\u0E21\u0E1E\u0E4C\u0E0B\u0E36\u0E48\u0E07\u0E15\u0E34\u0E14\u0E2D\u0E22\u0E39\u0E48\u0E43\u0E19\u0E1B\u0E01\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E43\u0E2B\u0E49\u0E04\u0E38\u0E13\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E1E\u0E25\u0E34\u0E01\u0E41\u0E25\u0E30\u0E2D\u0E48\u0E32\u0E19\u0E44\u0E14\u0E49"
+  children:
+  - 2d5aed9c-43a4-4468-865b-c5993fcad149
+  rect:
+    serializedVersion: 2
+    x: 736
+    y: 669
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-1436722222928071399
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb617ab88ccf14af28f17d2989c8b2f2, type: 3}
+  m_Name: 214c8cd9-690a-457a-9263-eaeba2502649
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "Seaweed \u0E41\u0E1B\u0E25\u0E27\u0E48\u0E32 \u0E2A\u0E32\u0E2B\u0E23\u0E48\u0E32\u0E22"
+  children:
+  - 25ad9b65-fec4-42ea-8df0-cba83efe31ad
+  rect:
+    serializedVersion: 2
+    x: 512
+    y: 419
     width: 200
     height: 100
   onEnterAction: 
@@ -107,8 +431,8 @@ MonoBehaviour:
   - b6d8d8b8-59fd-412b-96f9-d6d57303b60d
   rect:
     serializedVersion: 2
-    x: 498
-    y: 159
+    x: 480
+    y: 231
     width: 200
     height: 100
   onEnterAction: 
@@ -135,8 +459,8 @@ MonoBehaviour:
   - 33f39388-640b-4dd0-9a67-fe6b75339bcf
   rect:
     serializedVersion: 2
-    x: 747
-    y: 159
+    x: 748
+    y: 286
     width: 200
     height: 100
   onEnterAction: 
@@ -157,14 +481,161 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   nodes:
   - {fileID: -4338751606457529422}
-  - {fileID: 5136161212186545084}
   - {fileID: -6356050886525826202}
   - {fileID: -663367384882635155}
   - {fileID: -624201981847589483}
   - {fileID: 2467640311200463484}
   - {fileID: -7045008567056309546}
   - {fileID: 4474176756494015888}
+  - {fileID: 4453881065216752926}
+  - {fileID: 6903830381653311604}
+  - {fileID: -1436722222928071399}
+  - {fileID: 6105320052940440712}
+  - {fileID: 5782146827492898471}
+  - {fileID: -3009653412934292207}
+  - {fileID: -4692888418586547346}
+  - {fileID: -1767017791463020330}
+  - {fileID: -6035380970764667756}
+  - {fileID: 6900441029930331556}
+  - {fileID: -5061957532206815741}
+  - {fileID: -6874405548338228681}
+  - {fileID: -6141424564567074788}
+  - {fileID: 2879167989195763144}
+  - {fileID: 1811002180363393428}
+  - {fileID: 1554991068532269719}
+  - {fileID: 3477996708501504971}
+  - {fileID: -8251847670216121634}
+  - {fileID: 6532679481149650844}
+  - {fileID: 555943871939810467}
+  - {fileID: -4292552212320862594}
+  - {fileID: 2398607749115237830}
+  - {fileID: -7301178455746781690}
+  - {fileID: -4459383161183955949}
+  - {fileID: 8369500283311704955}
+  - {fileID: 5291614272510793116}
+  - {fileID: 7152723499031665274}
   newNodeOffset: {x: 250, y: 0}
+--- !u!114 &555943871939810467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb617ab88ccf14af28f17d2989c8b2f2, type: 3}
+  m_Name: e43d39d7-4f15-4666-82b3-d1c77b8d59fc
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "Mushroom \u0E41\u0E1B\u0E25\u0E27\u0E48\u0E32 \u0E40\u0E2B\u0E47\u0E14"
+  children:
+  - db84d941-f68f-45f7-a3ed-4784533cc0f6
+  - 0756dfb1-485a-4a91-8eb8-9b193181f608
+  rect:
+    serializedVersion: 2
+    x: 1039
+    y: 446
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &1554991068532269719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb617ab88ccf14af28f17d2989c8b2f2, type: 3}
+  m_Name: dcd24264-3714-4f46-806b-521f713afcc4
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "Fabric is  material made by weaving wool, cotton, silk, etc., used for making
+    clothes, curtains, etc. and for covering furniture. \u0E2A\u0E48\u0E27\u0E19\u0E17\u0E35\u0E48\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E2A\u0E31\u0E07\u0E40\u0E01\u0E15\u0E38\u0E44\u0E14\u0E49\u0E07\u0E48\u0E32\u0E22\u0E27\u0E48\u0E32\u0E04\u0E37\u0E2D
+    Fabric (\u0E1C\u0E49\u0E32) \u0E40\u0E0A\u0E48\u0E19  used for making clothes(\u0E43\u0E0A\u0E49\u0E2A\u0E33\u0E2B\u0E23\u0E31\u0E1A\u0E17\u0E33\u0E40\u0E2A\u0E37\u0E49\u0E2D\u0E1C\u0E49\u0E32)"
+  children:
+  - 26befd40-129a-42c9-a793-df3ee3c188f8
+  - d037ba5c-053e-419e-8480-18835f516806
+  rect:
+    serializedVersion: 2
+    x: 2015
+    y: 844
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &1811002180363393428
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb617ab88ccf14af28f17d2989c8b2f2, type: 3}
+  m_Name: f997111b-a5c8-40af-b988-d99ca21ac3fe
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "Book is a set of printed pages that are fastened inside a cover so that
+    you can turn them and read them. \u0E2A\u0E48\u0E27\u0E19\u0E17\u0E35\u0E48\u0E2A\u0E31\u0E07\u0E40\u0E01\u0E15\u0E38\u0E44\u0E14\u0E49\u0E07\u0E48\u0E32\u0E22\u0E27\u0E48\u0E32\u0E04\u0E37\u0E2D
+    Book (\u0E2B\u0E19\u0E31\u0E07\u0E2A\u0E37\u0E2D) \u0E40\u0E0A\u0E48\u0E19 Page
+    (\u0E2B\u0E19\u0E49\u0E32) \u0E41\u0E25\u0E30 Read (\u0E2D\u0E48\u0E32\u0E19)"
+  children:
+  - dcd24264-3714-4f46-806b-521f713afcc4
+  rect:
+    serializedVersion: 2
+    x: 1765
+    y: 844
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &2398607749115237830
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb617ab88ccf14af28f17d2989c8b2f2, type: 3}
+  m_Name: 8bc5eaef-f06b-487f-89b3-39cf38d43803
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: "\u0E20\u0E32\u0E23\u0E01\u0E34\u0E08 Help my friend"
+  children:
+  - 9fad4e53-4e00-443d-b794-a15237cd9961
+  rect:
+    serializedVersion: 2
+    x: 251
+    y: 726
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Help my friend
+        negate: 0
+    - or:
+      - predicate: CompletedQuest
+        parameters:
+        - Help my friend
+        negate: 1
 --- !u!114 &2467640311200463484
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -184,13 +655,104 @@ MonoBehaviour:
   rect:
     serializedVersion: 2
     x: 1005
-    y: 160
+    y: 229
     width: 200
     height: 100
   onEnterAction: 
   onExitAction: 
   condition:
     and: []
+--- !u!114 &2879167989195763144
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb617ab88ccf14af28f17d2989c8b2f2, type: 3}
+  m_Name: a510355c-ece2-4cd7-842a-5b71862f218f
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "Bomb is a weapon designed to explode at a particular time or when it is
+    dropped or thrown. \u0E2A\u0E48\u0E27\u0E19\u0E17\u0E35\u0E48\u0E2A\u0E32\u0E21\u0E32\u0E23\u0E16\u0E2A\u0E31\u0E07\u0E40\u0E01\u0E15\u0E38\u0E44\u0E14\u0E49\u0E07\u0E48\u0E32\u0E22\u0E27\u0E48\u0E32\u0E04\u0E37\u0E2D
+    Bomb (\u0E23\u0E30\u0E40\u0E1A\u0E34\u0E14) \u0E40\u0E0A\u0E48\u0E19 Weapon (\u0E2D\u0E32\u0E27\u0E38\u0E18)
+    \u0E41\u0E25\u0E30 Explode (\u0E23\u0E30\u0E40\u0E1A\u0E34\u0E14) "
+  children:
+  - f997111b-a5c8-40af-b988-d99ca21ac3fe
+  rect:
+    serializedVersion: 2
+    x: 1516
+    y: 798
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &3477996708501504971
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb617ab88ccf14af28f17d2989c8b2f2, type: 3}
+  m_Name: 26befd40-129a-42c9-a793-df3ee3c188f8
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: "\u0E09\u0E31\u0E19\u0E08\u0E33\u0E44\u0E14\u0E49\u0E41\u0E25\u0E49\u0E27"
+  children:
+  - 78ddf1fd-e387-4a97-bba7-a968d86c2314
+  rect:
+    serializedVersion: 2
+    x: 2265
+    y: 844
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &4453881065216752926
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb617ab88ccf14af28f17d2989c8b2f2, type: 3}
+  m_Name: 2796002a-5fca-450f-aef0-3a87067dfc15
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: "\u0E20\u0E32\u0E23\u0E01\u0E34\u0E08 Find ingredients"
+  children:
+  - 214c8cd9-690a-457a-9263-eaeba2502649
+  rect:
+    serializedVersion: 2
+    x: 256
+    y: 347
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Find ingredients
+        negate: 0
+    - or:
+      - predicate: CompletedQuest
+        parameters:
+        - Find ingredients
+        negate: 1
 --- !u!114 &4474176756494015888
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -208,15 +770,15 @@ MonoBehaviour:
   children: []
   rect:
     serializedVersion: 2
-    x: 1255
-    y: 160
+    x: 1256
+    y: 237
     width: 200
     height: 100
   onEnterAction: 
   onExitAction: FindASword
   condition:
     and: []
---- !u!114 &5136161212186545084
+--- !u!114 &5291614272510793116
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -226,15 +788,209 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fb617ab88ccf14af28f17d2989c8b2f2, type: 3}
-  m_Name: 8c20f587-b045-4ea3-8cd9-09aa9e3dd87c
+  m_Name: a7210f70-0165-4d23-99ba-192df632717e
   m_EditorClassIdentifier: 
-  isPlayerSpeaking: 1
-  text: "\u0E40\u0E08\u0E49\u0E32\u0E2D\u0E22\u0E32\u0E01\u0E23\u0E39\u0E49\u0E2D\u0E30\u0E44\u0E23\u0E25\u0E48\u0E30"
+  isPlayerSpeaking: 0
+  text: "\u0E40\u0E08\u0E49\u0E32\u0E40\u0E01\u0E48\u0E07\u0E21\u0E32\u0E01 \u0E40\u0E08\u0E49\u0E32\u0E17\u0E33\u0E44\u0E14\u0E49"
   children: []
   rect:
     serializedVersion: 2
-    x: 250
-    y: 0
+    x: 1033
+    y: 936
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: talk for friend
+  condition:
+    and: []
+--- !u!114 &5782146827492898471
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb617ab88ccf14af28f17d2989c8b2f2, type: 3}
+  m_Name: db84d941-f68f-45f7-a3ed-4784533cc0f6
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: "\u0E09\u0E31\u0E19\u0E08\u0E33\u0E44\u0E21\u0E48\u0E44\u0E14\u0E49 \u0E2D\u0E35\u0E01\u0E23\u0E2D\u0E1A\u0E44\u0E14\u0E49\u0E44\u0E2B\u0E21?"
+  children:
+  - 214c8cd9-690a-457a-9263-eaeba2502649
+  rect:
+    serializedVersion: 2
+    x: 813
+    y: 540
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &6105320052940440712
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb617ab88ccf14af28f17d2989c8b2f2, type: 3}
+  m_Name: 0756dfb1-485a-4a91-8eb8-9b193181f608
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: "\u0E09\u0E31\u0E19\u0E40\u0E02\u0E49\u0E32\u0E43\u0E08\u0E41\u0E25\u0E49\u0E27"
+  children:
+  - 82806780-251d-4409-8e58-95e57cf053aa
+  rect:
+    serializedVersion: 2
+    x: 1283
+    y: 448
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &6532679481149650844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb617ab88ccf14af28f17d2989c8b2f2, type: 3}
+  m_Name: 25ad9b65-fec4-42ea-8df0-cba83efe31ad
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: " Blue flower \u0E41\u0E1B\u0E25\u0E27\u0E48\u0E32 \u0E14\u0E2D\u0E01\u0E44\u0E21\u0E49\u0E2A\u0E35\u0E19\u0E49\u0E33\u0E40\u0E07\u0E34\u0E19"
+  children:
+  - e43d39d7-4f15-4666-82b3-d1c77b8d59fc
+  rect:
+    serializedVersion: 2
+    x: 761
+    y: 415
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &6900441029930331556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb617ab88ccf14af28f17d2989c8b2f2, type: 3}
+  m_Name: 1c556c2a-22ce-4058-90a3-718cc7a5e0a3
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: "\u0E09\u0E31\u0E19\u0E40\u0E02\u0E49\u0E32\u0E43\u0E08\u0E41\u0E25\u0E49\u0E27"
+  children:
+  - 78ddf1fd-e387-4a97-bba7-a968d86c2314
+  rect:
+    serializedVersion: 2
+    x: 1257
+    y: 610
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &6903830381653311604
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb617ab88ccf14af28f17d2989c8b2f2, type: 3}
+  m_Name: 8bfcc564-e667-44c0-9fd3-c59a3aad0a0c
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: "\u0E20\u0E32\u0E23\u0E01\u0E34\u0E08 Find material"
+  children:
+  - 5245edc9-2b28-413f-998e-f920489f1c01
+  rect:
+    serializedVersion: 2
+    x: 253
+    y: 553
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Find material
+        negate: 0
+    - or:
+      - predicate: CompletedQuest
+        parameters:
+        - Find material
+        negate: 1
+--- !u!114 &7152723499031665274
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb617ab88ccf14af28f17d2989c8b2f2, type: 3}
+  m_Name: eea62238-9abb-47ab-86a1-7a4f03c6b74f
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "Could you please help my friend from golem? \u0E41\u0E1B\u0E25\u0E27\u0E48\u0E32
+    \u0E04\u0E38\u0E13\u0E0A\u0E48\u0E27\u0E22\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E19\u0E02\u0E2D\u0E07\u0E09\u0E31\u0E19\u0E08\u0E32\u0E01\u0E42\u0E01\u0E40\u0E25\u0E21\u0E44\u0E14\u0E49\u0E44\u0E2B\u0E21?"
+  children:
+  - 0a86ca9b-4da9-4f0e-9eec-dc36732cc6ec
+  - af9f2234-1f0a-4782-872b-928ebd6a1c18
+  rect:
+    serializedVersion: 2
+    x: 738
+    y: 791
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &8369500283311704955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb617ab88ccf14af28f17d2989c8b2f2, type: 3}
+  m_Name: af9f2234-1f0a-4782-872b-928ebd6a1c18
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: "\u0E09\u0E31\u0E19\u0E02\u0E2D\u0E2D\u0E35\u0E01\u0E23\u0E2D\u0E1A"
+  children:
+  - 9fad4e53-4e00-443d-b794-a15237cd9961
+  rect:
+    serializedVersion: 2
+    x: 778
+    y: 994
     width: 200
     height: 100
   onEnterAction: 

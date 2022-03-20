@@ -15,7 +15,7 @@ MonoBehaviour:
   itemID: ad2df707-61b4-4a9a-8916-cf6df7116bf8
   displayName: "\u0E1C\u0E49\u0E32"
   description: 
-  icon: {fileID: 21300000, guid: 7df2da9d1f6ace642a65c37cce95d266, type: 3}
+  icon: {fileID: 21300000, guid: 334ec3526e32230459ca7133fb042b03, type: 3}
   pickup: {fileID: 2490817164378477547, guid: 269b267074a9c234a84dde12b7abee17, type: 3}
   stackable: 1
   price: 1

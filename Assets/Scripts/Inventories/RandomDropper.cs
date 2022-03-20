@@ -10,7 +10,6 @@ namespace RPG.Inventories
     public class RandomDropper : ItemDropper
     {
         // CONFIG DATA
-        [Tooltip("How far can the pickups be scattered from the dropper.")]
         [SerializeField] float scatterDistance = 1;
         [SerializeField] DropLibrary dropLibrary;
 

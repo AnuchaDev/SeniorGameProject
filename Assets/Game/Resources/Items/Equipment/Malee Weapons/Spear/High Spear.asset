@@ -16,8 +16,8 @@ MonoBehaviour:
   displayName: "\u0E2B\u0E2D\u0E01\u0E40\u0E25\u0E40\u0E27\u0E25 3"
   description: 
   icon: {fileID: 21300000, guid: dfa99cb83d1bbe2479b23ed3c1638813, type: 3}
-  pickup: {fileID: 0}
-  stackable: 0
+  pickup: {fileID: 2490817164378477547, guid: 447e34cadb90ca1489a63840d60bb599, type: 3}
+  stackable: 1
   price: 1000
   category: 2
   allowedEquipLocation: 5

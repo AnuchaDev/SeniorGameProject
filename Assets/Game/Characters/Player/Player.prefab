@@ -342,7 +342,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fc51fb26247264e2cbc53e6d6bf5bf3b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startingBalance: 10000
+  startingBalance: 200
 --- !u!114 &1948301194341941382
 MonoBehaviour:
   m_ObjectHideFlags: 0

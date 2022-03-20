@@ -5,14 +5,10 @@ namespace GameDev.Inventories
 
     public class Pickup : MonoBehaviour
     {
-        // STATE
         InventoryItem item;
         int number = 1;
 
-        // CACHED REFERENCE
         Inventory inventory;
-
-        // LIFECYCLE METHODS
 
         private void Awake()
         {

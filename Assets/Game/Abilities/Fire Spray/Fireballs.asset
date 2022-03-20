@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Fireballs
   m_EditorClassIdentifier: 
   projectileToSpawn: {fileID: 5267138171111833781, guid: 8d0aa8df64675482fb49e87bf2471cee, type: 3}
-  damage: 1
+  damage: 50
   isRightHand: 1
   useTargetPoint: 0

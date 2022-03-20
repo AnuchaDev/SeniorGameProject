@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -8,7 +8,7 @@ namespace GameDev.Inventories
     public abstract class InventoryItem : ScriptableObject, ISerializationCallbackReceiver
     {
         // CONFIG DATA
-        [Tooltip("Auto-generated UUID for saving/loading. Clear this field if you want to generate a new one.")]
+        [Tooltip("Auto-generated UUID for saving/loading.")]
         [SerializeField] string itemID = null;
         [Tooltip("Item name to be displayed in UI.")]
         [SerializeField] string displayName = null;
@@ -37,7 +37,7 @@ namespace GameDev.Inventories
                 {
                     if (itemLookupCache.ContainsKey(item.itemID))
                     {
-                        Debug.LogError(string.Format("Looks like there's a duplicate GameDev.UI.InventorySystem ID for objects: {0} and {1}", itemLookupCache[item.itemID], item));
+                        Debug.LogError(string.Format("Looks like there's a duplicate InventorySystem ID for objects: {0} and {1}", itemLookupCache[item.itemID], item));
                         continue;
                     }
 
@@ -71,7 +71,6 @@ namespace GameDev.Inventories
         {
             return stackable;
         }
-        
         public string GetDisplayName()
         {
             return displayName;
@@ -93,7 +92,6 @@ namespace GameDev.Inventories
         }
 
         // PRIVATE
-        
         void ISerializationCallbackReceiver.OnBeforeSerialize()
         {
             if (string.IsNullOrWhiteSpace(itemID))

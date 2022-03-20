@@ -13,12 +13,14 @@ MonoBehaviour:
   m_Name: Health Potion
   m_EditorClassIdentifier: 
   itemID: e5161f4a-a789-42b1-b4ef-6d7c57ef25eb
-  displayName: Health Potion
-  description: 
-  icon: {fileID: 21300000, guid: b0badac5b4bc7a9428db020c61d8e8f0, type: 3}
+  displayName: "\u0E40\u0E1E\u0E34\u0E48\u0E21\u0E1E\u0E25\u0E31\u0E07\u0E0A\u0E35\u0E27\u0E34\u0E15
+    (\u0E44\u0E2D\u0E40\u0E17\u0E21\u0E01\u0E14\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E43\u0E0A\u0E49\u0E07\u0E32\u0E19)"
+  description: "\u0E22\u0E32\u0E17\u0E35\u0E48\u0E43\u0E0A\u0E49\u0E40\u0E1E\u0E34\u0E48\u0E21\u0E1E\u0E25\u0E31\u0E07\u0E0A\u0E35\u0E27\u0E34\u0E15
+    +20"
+  icon: {fileID: 21300000, guid: aaf2acceffc3c7247a7854ee9d4e925f, type: 3}
   pickup: {fileID: 4055827363373812260, guid: eb7b33b00a5a549e5b6b34eb78ebc0ff, type: 3}
   stackable: 1
-  price: 10
+  price: 8
   category: 3
   consumable: 1
   targetingStrategy: {fileID: 11400000, guid: 5887de89d7d514710ab1176e72369347, type: 2}

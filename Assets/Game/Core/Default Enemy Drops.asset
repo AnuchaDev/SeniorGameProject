@@ -15,27 +15,65 @@ MonoBehaviour:
   potentialDrops:
   - item: {fileID: 11400000, guid: 659b25ee79d081a489725a35b5e16e5f, type: 2}
     relativeChance:
-    - 10
-    minNumber: 03000000
-    maxNumber: 05000000
+    - 20
+    - 30
+    minNumber: 01000000
+    maxNumber: 02000000
   - item: {fileID: 11400000, guid: d64a307491012e543995a2eef4f8cf74, type: 2}
     relativeChance:
-    - 2
-    minNumber: 
-    maxNumber: 
+    - 4
+    - 8
+    minNumber: 01000000
+    maxNumber: 01000000
   - item: {fileID: 11400000, guid: 25bd88e7af8514980ab59e0c436bb70f, type: 2}
     relativeChance:
-    - 1
-    - 2
-    minNumber: 
-    maxNumber: 
+    - 3
+    - 5
+    minNumber: 01000000
+    maxNumber: 01000000
   - item: {fileID: 11400000, guid: 47558c1d383dc461090f850962e8bd13, type: 2}
     relativeChance:
-    - 10
     - 20
+    - 30
     minNumber: 14000000
-    maxNumber: 1e000000
+    maxNumber: 28000000
+  - item: {fileID: 11400000, guid: ac17b627a8a191545a333d2e1e762388, type: 2}
+    relativeChance:
+    - 20
+    - 30
+    minNumber: 01000000
+    maxNumber: 02000000
+  - item: {fileID: 11400000, guid: 8de1eba1985b7d1468cde1ba07b3a645, type: 2}
+    relativeChance:
+    - 20
+    - 30
+    minNumber: 01000000
+    maxNumber: 02000000
+  - item: {fileID: 11400000, guid: f06ab3636dd9c45f7b5a20dfa3857bb1, type: 2}
+    relativeChance:
+    - 20
+    - 30
+    minNumber: 01000000
+    maxNumber: 02000000
+  - item: {fileID: 11400000, guid: c2c09573ed5a97e4281c42058ae18143, type: 2}
+    relativeChance:
+    - 20
+    - 30
+    minNumber: 01000000
+    maxNumber: 02000000
+  - item: {fileID: 11400000, guid: f3d28401417c54607908414d4ed5cf08, type: 2}
+    relativeChance:
+    - 20
+    - 30
+    minNumber: 01000000
+    maxNumber: 02000000
+  - item: {fileID: 11400000, guid: 95d8c9144afdde14b8b4c3bfc9373777, type: 2}
+    relativeChance:
+    - 20
+    - 30
+    minNumber: 01000000
+    maxNumber: 02000000
   dropChancePercentage:
   - 100
-  minDrops: 0300000006000000
-  maxDrops: 060000000c000000
+  minDrops: 0100000002000000
+  maxDrops: 0300000004000000

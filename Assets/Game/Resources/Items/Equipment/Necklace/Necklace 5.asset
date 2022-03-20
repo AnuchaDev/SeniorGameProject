@@ -18,7 +18,7 @@ MonoBehaviour:
     +5 \u0E41\u0E25\u0E30\u0E40\u0E1E\u0E34\u0E48\u0E21\u0E1E\u0E25\u0E31\u0E07\u0E0A\u0E35\u0E27\u0E34\u0E15
     +55"
   icon: {fileID: 21300000, guid: 6c802004e7dd06343880ce4dffe52471, type: 3}
-  pickup: {fileID: 0}
+  pickup: {fileID: 4055827363373812260, guid: eb7b33b00a5a549e5b6b34eb78ebc0ff, type: 3}
   stackable: 1
   price: 110
   category: 1

@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d8c2e783a7be44566a93f1d72a2bbfcf, type: 3}
+  m_Name: Health Potion 2
+  m_EditorClassIdentifier: 
+  itemID: 277b0995-0e24-496e-84c6-26fba92965e8
+  displayName: "\u0E40\u0E1E\u0E34\u0E48\u0E21\u0E1E\u0E25\u0E31\u0E07\u0E0A\u0E35\u0E27\u0E34\u0E15
+    (\u0E44\u0E2D\u0E40\u0E17\u0E21\u0E01\u0E14\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E43\u0E0A\u0E49\u0E07\u0E32\u0E19)"
+  description: "\u0E2D\u0E32\u0E2B\u0E32\u0E23\u0E17\u0E35\u0E48\u0E43\u0E0A\u0E49\u0E40\u0E1E\u0E34\u0E48\u0E21\u0E1E\u0E25\u0E31\u0E07\u0E0A\u0E35\u0E27\u0E34\u0E15
+    +40"
+  icon: {fileID: 21300000, guid: a2d495580aeb9a34e88bcf3a3ff009ed, type: 3}
+  pickup: {fileID: 4055827363373812260, guid: eb7b33b00a5a549e5b6b34eb78ebc0ff, type: 3}
+  stackable: 1
+  price: 24
+  category: 3
+  consumable: 1
+  targetingStrategy: {fileID: 11400000, guid: 5887de89d7d514710ab1176e72369347, type: 2}
+  filterStrategies: []
+  effectStrategies:
+  - {fileID: 11400000, guid: 3235541f34325e14c8fe8279946eb5f8, type: 2}
+  - {fileID: 11400000, guid: dfb16d6677ca64c70993d74c6f01d3ae, type: 2}
+  cooldownTime: 0
+  manaCost: 0

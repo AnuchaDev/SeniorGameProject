@@ -166,7 +166,7 @@ MonoBehaviour:
   m_Name: 17eec4c0-7b64-4c6a-bd8d-79f74d642e22
   m_EditorClassIdentifier: 
   isPlayerSpeaking: 0
-  text: "\u0E40\u0E2D\u0E32\u0E2A\u0E34 \u0E2B\u0E34\u0E27\u0E02\u0E49\u0E32\u0E27"
+  text: "\u0E14\u0E35\u0E21\u0E32\u0E01"
   children: []
   rect:
     serializedVersion: 2

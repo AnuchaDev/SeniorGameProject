@@ -17,7 +17,7 @@ MonoBehaviour:
   description: 
   icon: {fileID: 21300000, guid: cc41b200600287e4a81b3b715e967df1, type: 3}
   pickup: {fileID: 2490817164378477547, guid: c9ba603ea8cbc144fafa7c35e9e3800c, type: 3}
-  stackable: 0
+  stackable: 1
   price: 2
   category: 2
   allowedEquipLocation: 5

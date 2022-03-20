@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c8686f1889244cd0968978a8aaf22f0, type: 3}
+  m_Name: Find material
+  m_EditorClassIdentifier: 
+  objectives:
+  - reference: Get Book
+    description: "\u0E15\u0E32\u0E21\u0E2B\u0E32 Book"
+    usesCondition: 1
+    completionCondition:
+      and:
+      - or:
+        - predicate: HasInventoryItem
+          parameters:
+          - ca7ee9f2-fa7d-4652-b4f5-faaf8355a8e4
+          negate: 0
+  - reference: Get Fabric
+    description: "\u0E15\u0E32\u0E21\u0E2B\u0E32 Fabric"
+    usesCondition: 1
+    completionCondition:
+      and:
+      - or:
+        - predicate: HasInventoryItem
+          parameters:
+          - ad2df707-61b4-4a9a-8916-cf6df7116bf8
+          negate: 0
+  - reference: Get Bomb
+    description: "\u0E15\u0E32\u0E21\u0E2B\u0E32 Bomb"
+    usesCondition: 1
+    completionCondition:
+      and:
+      - or:
+        - predicate: HasInventoryItem
+          parameters:
+          - 030b6388-1c28-47e5-9903-7eed86c14a58
+          negate: 0
+  - reference: Completed material
+    description: "\u0E19\u0E33\u0E2A\u0E34\u0E48\u0E07\u0E02\u0E2D\u0E07\u0E17\u0E35\u0E48\u0E15\u0E49\u0E2D\u0E07\u0E15\u0E32\u0E21\u0E2B\u0E32\u0E01\u0E25\u0E31\u0E1A\u0E44\u0E1B\u0E43\u0E2B\u0E49\u0E40\u0E08\u0E49\u0E32\u0E02\u0E2D\u0E07"
+    usesCondition: 0
+    completionCondition:
+      and: []
+  rewards:
+  - number: 250
+    item: {fileID: 11400000, guid: 47558c1d383dc461090f850962e8bd13, type: 2}
+  - number: 1
+    item: {fileID: 11400000, guid: f9a8bb85a388055459ff27ebebfaecc0, type: 2}
+  - number: 1
+    item: {fileID: 11400000, guid: 64a73d697e2249244938edd27add5d62, type: 2}

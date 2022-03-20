@@ -11,10 +11,10 @@ namespace RPG.Stats
         //DebugMode
         private void Update()
         {
-            if (Input.GetKey(KeyCode.E))
-            {
-                GainExperience(Time.deltaTime * 100);
-            }
+            // if (Input.GetKey(KeyCode.E))
+            // {
+            //     GainExperience(Time.deltaTime * 100);
+            // }
         }
         //EndDebugMode
 

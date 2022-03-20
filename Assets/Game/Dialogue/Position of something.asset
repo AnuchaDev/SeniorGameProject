@@ -1,0 +1,511 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9084524761268634892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb617ab88ccf14af28f17d2989c8b2f2, type: 3}
+  m_Name: 8176b0d0-fdc4-4d14-a7ac-f5375e927f21
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "\u0E40\u0E08\u0E49\u0E32\u0E44\u0E1B\u0E40\u0E08\u0E2D\u0E21\u0E31\u0E19\u0E2D\u0E22\u0E39\u0E48\u0E15\u0E23\u0E07\u0E44\u0E2B\u0E19 "
+  children:
+  - a6416f7c-660c-4083-a567-deb2020f8d43
+  - 83c397a8-ab32-472a-ac34-1eda4eb1b4b4
+  - 07b0a160-3f07-432d-a93f-1bc96871b53a
+  - 08c26059-7c17-45db-8035-69a1f4ef6070
+  rect:
+    serializedVersion: 2
+    x: 732
+    y: 266
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-6201228570930165418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb617ab88ccf14af28f17d2989c8b2f2, type: 3}
+  m_Name: 30b1c94a-72ba-4c2f-903b-10043076a687
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: Gear is the part of robot.
+  children:
+  - 6050d12c-da7a-423b-94ca-73431f562830
+  rect:
+    serializedVersion: 2
+    x: 728
+    y: 34
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-3794616159865943819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb617ab88ccf14af28f17d2989c8b2f2, type: 3}
+  m_Name: a6416f7c-660c-4083-a567-deb2020f8d43
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: It is near the shipwreck.
+  children:
+  - c8c7145c-0171-44ef-8e28-cf225dd52a94
+  rect:
+    serializedVersion: 2
+    x: 983
+    y: 266
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-3741441952397676702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb617ab88ccf14af28f17d2989c8b2f2, type: 3}
+  m_Name: 4f33dc8e-4a40-44d7-bdec-04abce91bdff
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "\u0E02\u0E49\u0E32\u0E2B\u0E32\u0E02\u0E2D\u0E07\u0E0A\u0E34\u0E49\u0E19\u0E2A\u0E33\u0E04\u0E31\u0E0D\u0E2A\u0E33\u0E2B\u0E23\u0E31\u0E1A\u0E1B\u0E23\u0E30\u0E01\u0E2D\u0E1A\u0E2B\u0E38\u0E48\u0E19\u0E22\u0E19\u0E15\u0E4C "
+  children:
+  - 28a72e2d-4dc1-40d0-9f85-d8cfb1878c8d
+  - 53655686-49e8-4110-af0e-bcb9735b2295
+  - 0951c044-dbf6-411f-9781-d6677572295b
+  rect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-2843628920540920518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb617ab88ccf14af28f17d2989c8b2f2, type: 3}
+  m_Name: 0951c044-dbf6-411f-9781-d6677572295b
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "\u0E02\u0E2D\u0E1A\u0E04\u0E38\u0E13\u0E17\u0E48\u0E32\u0E19\u0E1C\u0E39\u0E49\u0E01\u0E25\u0E49\u0E32\u0E21\u0E32\u0E01
+    \u0E2B\u0E38\u0E48\u0E19\u0E22\u0E19\u0E15\u0E4C\u0E02\u0E2D\u0E07\u0E02\u0E49\u0E32\u0E40\u0E2A\u0E23\u0E47\u0E08\u0E2A\u0E21\u0E1A\u0E39\u0E23\u0E13\u0E4C\u0E41\u0E25\u0E49\u0E27 "
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 240
+    y: 312
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Position of something
+        negate: 0
+    - or:
+      - predicate: CompletedQuest
+        parameters:
+        - Position of something
+        negate: 0
+--- !u!114 &-2408847091846165760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb617ab88ccf14af28f17d2989c8b2f2, type: 3}
+  m_Name: 07b0a160-3f07-432d-a93f-1bc96871b53a
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: It is close to the shipwreck.
+  children:
+  - 8176b0d0-fdc4-4d14-a7ac-f5375e927f21
+  - c8c7145c-0171-44ef-8e28-cf225dd52a94
+  rect:
+    serializedVersion: 2
+    x: 987
+    y: 512
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &-766088684106042625
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb617ab88ccf14af28f17d2989c8b2f2, type: 3}
+  m_Name: 6050d12c-da7a-423b-94ca-73431f562830
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: "\u0E02\u0E49\u0E32\u0E08\u0E30\u0E44\u0E1B\u0E2B\u0E32\u0E40\u0E1E\u0E37\u0E48\u0E2D\u0E17\u0E48\u0E32\u0E19\u0E2D\u0E2D\u0E22\u0E48\u0E32\u0E07\u0E41\u0E19\u0E48\u0E19\u0E2D\u0E19"
+  children:
+  - 026ab65a-0ced-472a-80e5-b73669fcf3eb
+  rect:
+    serializedVersion: 2
+    x: 978
+    y: 34
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a13bc85e6f454a6aa048147ebc9e63d, type: 3}
+  m_Name: Position of something
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -3741441952397676702}
+  - {fileID: 5312186468589758877}
+  - {fileID: 8006692280615447705}
+  - {fileID: 5317010429054902904}
+  - {fileID: -2843628920540920518}
+  - {fileID: -6201228570930165418}
+  - {fileID: 5171414746913296650}
+  - {fileID: 8063356131001263902}
+  - {fileID: 7943649957162406296}
+  - {fileID: -9084524761268634892}
+  - {fileID: -3794616159865943819}
+  - {fileID: 7341693308159842450}
+  - {fileID: 6365129497328735692}
+  - {fileID: -2408847091846165760}
+  - {fileID: 1685533461421805275}
+  - {fileID: -766088684106042625}
+  - {fileID: 8758794749974125158}
+  newNodeOffset: {x: 250, y: 0}
+--- !u!114 &1685533461421805275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb617ab88ccf14af28f17d2989c8b2f2, type: 3}
+  m_Name: 08c26059-7c17-45db-8035-69a1f4ef6070
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: It is close to the tree.
+  children:
+  - 8176b0d0-fdc4-4d14-a7ac-f5375e927f21
+  rect:
+    serializedVersion: 2
+    x: 987
+    y: 638
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &5171414746913296650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb617ab88ccf14af28f17d2989c8b2f2, type: 3}
+  m_Name: c65c6ba7-6512-453f-972a-993d64225f3d
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: "\u0E09\u0E31\u0E19\u0E22\u0E31\u0E07\u0E44\u0E21\u0E48\u0E27\u0E48\u0E32\u0E07
+    \u0E40\u0E2D\u0E32\u0E44\u0E27\u0E49\u0E04\u0E23\u0E32\u0E27\u0E2B\u0E19\u0E49\u0E32\u0E41\u0E25\u0E49\u0E27\u0E01\u0E31\u0E19"
+  children:
+  - e152477e-b781-4c61-ad0d-052e49ac3cc5
+  rect:
+    serializedVersion: 2
+    x: 481
+    y: 168
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &5312186468589758877
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb617ab88ccf14af28f17d2989c8b2f2, type: 3}
+  m_Name: 28a72e2d-4dc1-40d0-9f85-d8cfb1878c8d
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "\u0E02\u0E49\u0E32\u0E01\u0E33\u0E25\u0E31\u0E07\u0E23\u0E2D\u0E2D\u0E22\u0E48\u0E32\u0E07\u0E21\u0E35\u0E04\u0E27\u0E32\u0E21\u0E2B\u0E27\u0E31\u0E07"
+  children:
+  - 7a66a858-fac4-4569-98fc-55f6eb5fd2cf
+  rect:
+    serializedVersion: 2
+    x: 242
+    y: 165
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Position of something
+        negate: 0
+    - or:
+      - predicate: CompletedQuest
+        parameters:
+        - Position of something
+        negate: 1
+--- !u!114 &5317010429054902904
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb617ab88ccf14af28f17d2989c8b2f2, type: 3}
+  m_Name: b93af47b-842a-4fe5-a5ca-f95a139240d2
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: "\u0E44\u0E27\u0E49\u0E27\u0E32\u0E07\u0E43\u0E08\u0E02\u0E49\u0E32\u0E44\u0E14\u0E49\u0E40\u0E25\u0E22
+    \u0E17\u0E48\u0E32\u0E19\u0E08\u0E30\u0E43\u0E2B\u0E49\u0E44\u0E1B\u0E15\u0E32\u0E21\u0E2B\u0E32\u0E2A\u0E34\u0E48\u0E07\u0E43\u0E14"
+  children:
+  - 30b1c94a-72ba-4c2f-903b-10043076a687
+  rect:
+    serializedVersion: 2
+    x: 478
+    y: 34
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: GiveQuest
+  condition:
+    and: []
+--- !u!114 &6365129497328735692
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb617ab88ccf14af28f17d2989c8b2f2, type: 3}
+  m_Name: c8c7145c-0171-44ef-8e28-cf225dd52a94
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "\u0E0A\u0E34\u0E49\u0E19\u0E19\u0E35\u0E49\u0E08\u0E23\u0E34\u0E07\u0E46\u0E14\u0E49\u0E27\u0E22"
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1233
+    y: 266
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: talk for rewards
+  condition:
+    and: []
+--- !u!114 &7341693308159842450
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb617ab88ccf14af28f17d2989c8b2f2, type: 3}
+  m_Name: 83c397a8-ab32-472a-ac34-1eda4eb1b4b4
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: It is near the moster.
+  children:
+  - 8176b0d0-fdc4-4d14-a7ac-f5375e927f21
+  rect:
+    serializedVersion: 2
+    x: 982
+    y: 390
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &7943649957162406296
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb617ab88ccf14af28f17d2989c8b2f2, type: 3}
+  m_Name: 7a66a858-fac4-4569-98fc-55f6eb5fd2cf
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 1
+  text: "\u0E09\u0E31\u0E19\u0E2B\u0E32\u0E40\u0E08\u0E2D\u0E41\u0E25\u0E49\u0E27"
+  children:
+  - 8176b0d0-fdc4-4d14-a7ac-f5375e927f21
+  rect:
+    serializedVersion: 2
+    x: 482
+    y: 266
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasInventoryItem
+        parameters:
+        - 30baa9d6-3262-4242-8985-7f24fa3962c4
+        negate: 0
+--- !u!114 &8006692280615447705
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb617ab88ccf14af28f17d2989c8b2f2, type: 3}
+  m_Name: 53655686-49e8-4110-af0e-bcb9735b2295
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "\u0E17\u0E48\u0E32\u0E19\u0E0A\u0E48\u0E27\u0E22\u0E02\u0E49\u0E32\u0E44\u0E14\u0E49\u0E44\u0E2B\u0E21"
+  children:
+  - b93af47b-842a-4fe5-a5ca-f95a139240d2
+  - c65c6ba7-6512-453f-972a-993d64225f3d
+  rect:
+    serializedVersion: 2
+    x: 245
+    y: 36
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and:
+    - or:
+      - predicate: HasQuest
+        parameters:
+        - Position of something
+        negate: 1
+--- !u!114 &8063356131001263902
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb617ab88ccf14af28f17d2989c8b2f2, type: 3}
+  m_Name: e152477e-b781-4c61-ad0d-052e49ac3cc5
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "\u0E02\u0E49\u0E32\u0E08\u0E30\u0E23\u0E2D\u0E04\u0E27\u0E32\u0E21\u0E0A\u0E48\u0E27\u0E22\u0E40\u0E2B\u0E25\u0E37\u0E2D\u0E08\u0E32\u0E01\u0E17\u0E48\u0E32\u0E19"
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 731
+    y: 168
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []
+--- !u!114 &8758794749974125158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb617ab88ccf14af28f17d2989c8b2f2, type: 3}
+  m_Name: 026ab65a-0ced-472a-80e5-b73669fcf3eb
+  m_EditorClassIdentifier: 
+  isPlayerSpeaking: 0
+  text: "\u0E02\u0E2D\u0E1A\u0E04\u0E38\u0E13\u0E17\u0E48\u0E32\u0E19\u0E21\u0E32\u0E01"
+  children: []
+  rect:
+    serializedVersion: 2
+    x: 1228
+    y: 34
+    width: 200
+    height: 100
+  onEnterAction: 
+  onExitAction: 
+  condition:
+    and: []

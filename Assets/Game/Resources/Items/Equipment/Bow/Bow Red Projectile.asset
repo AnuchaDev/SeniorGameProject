@@ -17,10 +17,12 @@ MonoBehaviour:
   description: 
   icon: {fileID: 21300000, guid: 42015881e0133bb45a551332e5aaa3a1, type: 3}
   pickup: {fileID: 2614128599326122504, guid: e43489d0d93244a18a1599007f4bcb39, type: 3}
-  stackable: 0
+  stackable: 1
   price: 0
   category: 2
   allowedEquipLocation: 5
+  equipCondition:
+    and: []
   animatorOverride: {fileID: 22100000, guid: ebe986c6855fd442bbf0c98454b5ae44, type: 2}
   equippedPrefab: {fileID: 6271719766299222852, guid: 5e1231e46f9664844a60ccb62a67f319, type: 3}
   weaponDamage: 0

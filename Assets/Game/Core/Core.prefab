@@ -247,7 +247,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 494582899058599705, guid: 00254deafec00df47a5cb22b82fa7df2, type: 3}
       propertyPath: startingBalance
-      value: 200
+      value: 400
       objectReference: {fileID: 0}
     - target: {fileID: 4418362954710017705, guid: 00254deafec00df47a5cb22b82fa7df2, type: 3}
       propertyPath: inventorySize
@@ -941,7 +941,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1693024143934773398, guid: 07dc30b6f1bbb4147acd5fd5555a18f5, type: 3}
       propertyPath: m_Size
-      value: 0.942578
+      value: 0.9425748
       objectReference: {fileID: 0}
     - target: {fileID: 1693024143934773398, guid: 07dc30b6f1bbb4147acd5fd5555a18f5, type: 3}
       propertyPath: m_Value
@@ -3516,7 +3516,7 @@ PrefabInstance:
       objectReference: {fileID: 8052588912256207485}
     - target: {fileID: 7687349905529175936, guid: 0751578d2707bb94ebd1a943a302f77a, type: 3}
       propertyPath: m_Lens.m_SensorSize.x
-      value: 1.8843416
+      value: 1.6281139
       objectReference: {fileID: 0}
     - target: {fileID: 7687349905529175937, guid: 0751578d2707bb94ebd1a943a302f77a, type: 3}
       propertyPath: m_RootOrder

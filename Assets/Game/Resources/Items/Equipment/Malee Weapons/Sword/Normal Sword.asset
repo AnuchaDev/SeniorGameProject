@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2591c982fc81e940845bedeabeb30af, type: 3}
   m_Name: Normal Sword
   m_EditorClassIdentifier: 
-  itemID: 8fa70a77-5749-4b1e-90ce-1efdf7328288
+  itemID: 25f422c3-5d58-4545-ae5a-e6a91e99dad6
   displayName: "\u0E14\u0E32\u0E1A\u0E40\u0E25\u0E40\u0E27\u0E25 1"
   description: 
   icon: {fileID: 21300000, guid: 21cb5443714fd1c4c97db927bff2ef64, type: 3}
   pickup: {fileID: 2490817164378477547, guid: 8e06fc205e9a14144a6f6273e41de1e3, type: 3}
-  stackable: 0
+  stackable: 1
   price: 150
   category: 2
   allowedEquipLocation: 5
